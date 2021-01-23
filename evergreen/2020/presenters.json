@@ -1,0 +1,10 @@
+[
+    { "name": "Jan Rietman", "hour": 6 },
+    { "name": "Jeroen van Inkel", "hour": 8 },
+    { "name": "Hans Schiffers", "hour": 10 },
+    { "name": "Bert Haandrikman", "hour": 12 },
+    { "name": "Tom Herlaar", "hour": 14 },
+    { "name": "Bert Kranenbarg", "hour": 16 },
+    { "name": "Manuëla Kemps & Henkjan Smits", "hour": 18 },
+    { "name": "-- 06:00 uur weer --", "hour": 20 }
+]

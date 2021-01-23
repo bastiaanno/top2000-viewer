@@ -1,0 +1,7001 @@
+[{
+        "edition": "2020",
+        "id": "1",
+        "title": "Roller Coaster",
+        "artist": "Danny Vera",
+        "year": "2019"
+    },
+    {
+        "edition": "2020",
+        "id": "2",
+        "title": "Het Dorp",
+        "artist": "Wim Sonneveld",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "3",
+        "title": "Du",
+        "artist": "Peter Maffay",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "4",
+        "title": "Voor Haar",
+        "artist": "Frans Halsema",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "5",
+        "title": "Avond",
+        "artist": "Boudewijn De Groot",
+        "year": "1997"
+    },
+    {
+        "edition": "2020",
+        "id": "6",
+        "title": "Hotel California",
+        "artist": "Eagles",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "7",
+        "title": "Bridge Over Troubled Water",
+        "artist": "Simon & Garfunkel",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "8",
+        "title": "The Sound Of Silence",
+        "artist": "Simon & Garfunkel",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "9",
+        "title": "Lea",
+        "artist": "Cats",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "10",
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "11",
+        "title": "God Only Knows",
+        "artist": "Beach Boys",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "12",
+        "title": "Pastorale",
+        "artist": "Liesbeth List & Ramses Shaffy",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "13",
+        "title": "One Way Wind",
+        "artist": "Cats",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "14",
+        "title": "Nights In White Satin",
+        "artist": "Moody Blues",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "15",
+        "title": "Papa",
+        "artist": "Stef Bos",
+        "year": "1991"
+    },
+    {
+        "edition": "2020",
+        "id": "16",
+        "title": "A Whiter Shade Of Pale",
+        "artist": "Procol Harum",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "17",
+        "title": "Scarlet Ribbons",
+        "artist": "Cats",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "18",
+        "title": "Imagine",
+        "artist": "John Lennon",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "19",
+        "title": "Mag Ik Dan Bij Jou",
+        "artist": "Claudia De Breij",
+        "year": "2011"
+    },
+    {
+        "edition": "2020",
+        "id": "20",
+        "title": "Love Of My Life",
+        "artist": "Queen",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "21",
+        "title": "Hallelujah",
+        "artist": "Leonard Cohen",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "22",
+        "title": "Stairway To Heaven",
+        "artist": "Led Zeppelin",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "23",
+        "title": "Foto Van Vroeger",
+        "artist": "Rob de Nijs",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "24",
+        "title": "Wish You Were Here",
+        "artist": "Pink Floyd",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "25",
+        "title": "The Last Resort",
+        "artist": "Eagles",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "26",
+        "title": "La Comparsa",
+        "artist": "ZZ & De Maskers",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "27",
+        "title": "Over De Muur",
+        "artist": "Klein Orkest",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "28",
+        "title": "Child In Time",
+        "artist": "Deep Purple",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "29",
+        "title": "The Rose",
+        "artist": "Bette Midler",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "30",
+        "title": "De Vondeling Van Ameland",
+        "artist": "Boudewijn De Groot",
+        "year": "2004"
+    },
+    {
+        "edition": "2020",
+        "id": "31",
+        "title": "Window Of My Eyes",
+        "artist": "Cuby & The Blizzards",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "32",
+        "title": "The House Of The Rising Sun",
+        "artist": "Animals",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "33",
+        "title": "Angie",
+        "artist": "Rolling Stones",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "34",
+        "title": "Piano Man",
+        "artist": "Billy Joel",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "35",
+        "title": "Testament",
+        "artist": "Boudewijn De Groot",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "36",
+        "title": "Marian",
+        "artist": "Cats",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "37",
+        "title": "Old And Wise",
+        "artist": "Alan Parsons Project",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "38",
+        "title": "Yesterday",
+        "artist": "Beatles",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "39",
+        "title": "I Am... I Said",
+        "artist": "Neil Diamond",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "40",
+        "title": "Hey Jude",
+        "artist": "Beatles",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "41",
+        "title": "Verdronken Vlinder",
+        "artist": "Boudewijn De Groot",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "42",
+        "title": "Times Were When",
+        "artist": "Cats",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "43",
+        "title": "Brothers In Arms",
+        "artist": "Dire Straits",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "44",
+        "title": "Brabant",
+        "artist": "Guus Meeuwis",
+        "year": "2002"
+    },
+    {
+        "edition": "2020",
+        "id": "45",
+        "title": "Shine On You Crazy Diamond",
+        "artist": "Pink Floyd",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "46",
+        "title": "Unchained Melody",
+        "artist": "Righteous Brothers",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "47",
+        "title": "She",
+        "artist": "Charles Aznavour",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "48",
+        "title": "I Put A Spell On You",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "49",
+        "title": "Let It Be",
+        "artist": "Beatles",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "50",
+        "title": "Laat Me",
+        "artist": "Ramses Shaffy",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "51",
+        "title": "Comfortably Numb",
+        "artist": "Pink Floyd",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "52",
+        "title": "Oude Maasweg",
+        "artist": "Amazing Stroopwafels",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "53",
+        "title": "Riders On The Storm (lange versie)",
+        "artist": "Doors",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "54",
+        "title": "Paradise By The Dashboard Light (lange versie)",
+        "artist": "Meat Loaf",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "55",
+        "title": "You'll Never Walk Alone",
+        "artist": "Gerry & The Pacemakers",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "56",
+        "title": "In The Ghetto",
+        "artist": "Elvis Presley",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "57",
+        "title": "Have You Ever Seen The Rain",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "58",
+        "title": "Flink Zijn",
+        "artist": "Robert Long",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "59",
+        "title": "The Boxer",
+        "artist": "Simon & Garfunkel",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "60",
+        "title": "Het Werd Zomer",
+        "artist": "Rob de Nijs",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "61",
+        "title": "Dance Me To The End Of Love",
+        "artist": "Leonard Cohen",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "62",
+        "title": "Tears In Heaven",
+        "artist": "Eric Clapton",
+        "year": "1992"
+    },
+    {
+        "edition": "2020",
+        "id": "63",
+        "title": "The Day Before You Came",
+        "artist": "ABBA",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "64",
+        "title": "Go Your Own Way",
+        "artist": "Fleetwood Mac",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "65",
+        "title": "In Dreams",
+        "artist": "Roy Orbison",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "66",
+        "title": "Apache",
+        "artist": "Shadows",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "67",
+        "title": "La Boh\u00e8me",
+        "artist": "Charles Aznavour",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "68",
+        "title": "Once Upon A Time In The West",
+        "artist": "Ennio Morricone",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "69",
+        "title": "Albatross",
+        "artist": "Fleetwood Mac",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "70",
+        "title": "Sweet Caroline",
+        "artist": "Neil Diamond",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "71",
+        "title": "Private Investigations",
+        "artist": "Dire Straits",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "72",
+        "title": "Dancing Queen",
+        "artist": "ABBA",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "73",
+        "title": "Radar Love",
+        "artist": "Golden Earring",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "74",
+        "title": "Who'll Stop The Rain",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "75",
+        "title": "I Love You Because",
+        "artist": "Jim Reeves",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "76",
+        "title": "Ode Aan Maastricht",
+        "artist": "Benny Neyman",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "77",
+        "title": "Vaya Con Dios",
+        "artist": "Cats",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "78",
+        "title": "Vincent",
+        "artist": "Don McLean",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "79",
+        "title": "Don't Forget To Remember",
+        "artist": "Bee Gees",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "80",
+        "title": "Green Green Grass Of Home",
+        "artist": "Tom Jones",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "81",
+        "title": "Desperado",
+        "artist": "Eagles",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "82",
+        "title": "Kalverliefde",
+        "artist": "Robert Long",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "83",
+        "title": "Morning Has Broken",
+        "artist": "Cat Stevens",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "84",
+        "title": "Why",
+        "artist": "Cats",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "85",
+        "title": "Just A Little Bit Of Peace In My Heart",
+        "artist": "Golden Earrings",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "86",
+        "title": "Where Have I Been Wrong",
+        "artist": "Cats",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "87",
+        "title": "El Condor Pasa",
+        "artist": "Simon & Garfunkel",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "88",
+        "title": "So Long Marianne",
+        "artist": "Leonard Cohen",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "89",
+        "title": "Paint It Black",
+        "artist": "Rolling Stones",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "90",
+        "title": "Zelfs Je Naam Is Mooi",
+        "artist": "Henk Westbroek",
+        "year": "1998"
+    },
+    {
+        "edition": "2020",
+        "id": "91",
+        "title": "Distant Drums",
+        "artist": "Jim Reeves",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "92",
+        "title": "He Ain't Heavy He's My Brother",
+        "artist": "Hollies",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "93",
+        "title": "Massachusetts",
+        "artist": "Bee Gees",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "94",
+        "title": "Question",
+        "artist": "Moody Blues",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "95",
+        "title": "Vluchten Kan Niet Meer",
+        "artist": "Jenny Arean & Frans Halsema",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "96",
+        "title": "Bad Moon Rising",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "97",
+        "title": "Ruthless Queen",
+        "artist": "Kayak",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "98",
+        "title": "Waarom Fluister Ik Je Naam Nog",
+        "artist": "Benny Neyman",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "99",
+        "title": "Rock 'N Roll (I Gave You The Best Years Of My Life)",
+        "artist": "Cats",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "100",
+        "title": "Blackbird",
+        "artist": "Beatles",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "101",
+        "title": "Eagle",
+        "artist": "ABBA",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "102",
+        "title": "Music",
+        "artist": "John Miles",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "103",
+        "title": "Eloise",
+        "artist": "Barry Ryan",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "104",
+        "title": "Laat Me Alleen",
+        "artist": "Rita Hovink",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "105",
+        "title": "Here Comes The Sun",
+        "artist": "Beatles",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "106",
+        "title": "Mississippi",
+        "artist": "Pussycat",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "107",
+        "title": "Take Me Home Country Roads",
+        "artist": "John Denver",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "108",
+        "title": "San Francisco (Be Sure To Wear Flowers In Your Hair)",
+        "artist": "Scott McKenzie",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "109",
+        "title": "My Boy",
+        "artist": "Elvis Presley",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "110",
+        "title": "Barcelona",
+        "artist": "Freddie Mercury & Montserr...",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "111",
+        "title": "The End Of The Show",
+        "artist": "Cats",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "112",
+        "title": "The Winner Takes It All",
+        "artist": "ABBA",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "113",
+        "title": "Annie's Song",
+        "artist": "John Denver",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "114",
+        "title": "Words",
+        "artist": "Bee Gees",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "115",
+        "title": "Suspicious Minds",
+        "artist": "Elvis Presley",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "116",
+        "title": "Sultans Of Swing",
+        "artist": "Dire Straits",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "117",
+        "title": "Is Dit Nu Later",
+        "artist": "Stef Bos",
+        "year": "1990"
+    },
+    {
+        "edition": "2020",
+        "id": "118",
+        "title": "The River",
+        "artist": "Bruce Springsteen",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "119",
+        "title": "Perhaps Love",
+        "artist": "John Denver & Placido Domi...",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "120",
+        "title": "Time In A Bottle",
+        "artist": "Jim Croce",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "121",
+        "title": "Ring Of Fire",
+        "artist": "Johnny Cash",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "122",
+        "title": "Blueberry Hill",
+        "artist": "Fats Domino",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "123",
+        "title": "Ramona",
+        "artist": "Blue Diamonds",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "124",
+        "title": "Who Wants To Live Forever",
+        "artist": "Queen",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "125",
+        "title": "Need Your Love So Bad",
+        "artist": "Fleetwood Mac",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "126",
+        "title": "Always On My Mind",
+        "artist": "Elvis Presley",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "127",
+        "title": "Non Je Ne Regrette Rien",
+        "artist": "Edith Piaf",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "128",
+        "title": "Tous Les Garcons Et Les Filles",
+        "artist": "Francoise Hardy",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "129",
+        "title": "He'll Have To Go",
+        "artist": "Jim Reeves",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "130",
+        "title": "Vous Permettez Monsieur",
+        "artist": "Adamo",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "131",
+        "title": "California Dreamin'",
+        "artist": "The Mama's & The Papa's",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "132",
+        "title": "Sittin' On The Dock Of The Bay",
+        "artist": "Otis Redding",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "133",
+        "title": "White Rabbit",
+        "artist": "Jefferson Airplane",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "134",
+        "title": "Can't Help Falling In Love",
+        "artist": "Elvis Presley",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "135",
+        "title": "Beautiful Noise",
+        "artist": "Neil Diamond",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "136",
+        "title": "The Air That I Breathe",
+        "artist": "Hollies",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "137",
+        "title": "Teach Your Children",
+        "artist": "Crosby Stills Nash & Young",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "138",
+        "title": "Top Of The World",
+        "artist": "Carpenters",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "139",
+        "title": "Zing, Vecht, Huil, Bid, Lach, Werk En Bewonder",
+        "artist": "Ramses Shaffy",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "140",
+        "title": "School",
+        "artist": "Supertramp",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "141",
+        "title": "Take This Waltz",
+        "artist": "Leonard Cohen",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "142",
+        "title": "Mr. Blue Sky",
+        "artist": "Electric Light Orchestra",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "143",
+        "title": "Are You Lonesome Tonight",
+        "artist": "Elvis Presley",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "144",
+        "title": "Un Canto A Galicia",
+        "artist": "Julio Iglesias",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "145",
+        "title": "Boulevard De La Madeleine",
+        "artist": "Moody Blues",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "146",
+        "title": "Islands In The Stream",
+        "artist": "Dolly Parton & Kenny Rogers",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "147",
+        "title": "Calypso",
+        "artist": "John Denver",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "148",
+        "title": "Ann",
+        "artist": "Q65",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "149",
+        "title": "Nothing Rhymed",
+        "artist": "Gilbert O\u00b4Sullivan",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "150",
+        "title": "De Vlieger",
+        "artist": "Andr\u00e9 Hazes",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "151",
+        "title": "Somewhere Between",
+        "artist": "Tumbleweeds",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "152",
+        "title": "Sebastian",
+        "artist": "Cockney Rebel",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "153",
+        "title": "Open Einde",
+        "artist": "Rob de Nijs",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "154",
+        "title": "Wasted Words",
+        "artist": "Motions",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "155",
+        "title": "The Load Out \/ Stay",
+        "artist": "Jackson Browne",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "156",
+        "title": "Conquest Of Paradise",
+        "artist": "Vangelis",
+        "year": "1995"
+    },
+    {
+        "edition": "2020",
+        "id": "157",
+        "title": "My Way",
+        "artist": "Frank Sinatra",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "158",
+        "title": "Homeward Bound",
+        "artist": "Simon & Garfunkel",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "159",
+        "title": "Sloop John B",
+        "artist": "Beach Boys",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "160",
+        "title": "Zo Zal Het Zijn",
+        "artist": "Rob De Nijs",
+        "year": "1998"
+    },
+    {
+        "edition": "2020",
+        "id": "161",
+        "title": "Everybody Hurts",
+        "artist": "R.E.M.",
+        "year": "1993"
+    },
+    {
+        "edition": "2020",
+        "id": "162",
+        "title": "Inch Allah",
+        "artist": "Adamo",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "163",
+        "title": "My Special Prayer",
+        "artist": "Percy Sledge",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "164",
+        "title": "Perfect Day",
+        "artist": "Lou Reed",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "165",
+        "title": "While My Guitar Gently Weeps",
+        "artist": "Beatles",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "166",
+        "title": "It's All Over Now",
+        "artist": "Rolling Stones",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "167",
+        "title": "Ne Me Quitte Pas",
+        "artist": "Jacques Brel",
+        "year": "1959"
+    },
+    {
+        "edition": "2020",
+        "id": "168",
+        "title": "Terug Naar De Kust",
+        "artist": "Maggie MacNeal",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "169",
+        "title": "Africa",
+        "artist": "Toto",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "170",
+        "title": "Tuesday Afternoon",
+        "artist": "Moody Blues",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "171",
+        "title": "Alles Wat Ademt",
+        "artist": "Rob de Nijs",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "172",
+        "title": "Welterusten Meneer De President",
+        "artist": "Boudewijn De Groot",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "173",
+        "title": "There Has Been A Time",
+        "artist": "Cats",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "174",
+        "title": "What A Wonderful World",
+        "artist": "Louis Armstrong",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "175",
+        "title": "I Have A Dream",
+        "artist": "ABBA",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "176",
+        "title": "Somebody To Love",
+        "artist": "Queen",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "177",
+        "title": "Thank You For The Music",
+        "artist": "ABBA",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "178",
+        "title": "The French Song",
+        "artist": "Lucille Starr",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "179",
+        "title": "I Started A Joke",
+        "artist": "Bee Gees",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "180",
+        "title": "Good Vibrations",
+        "artist": "Beach Boys",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "181",
+        "title": "Geen Kind Meer",
+        "artist": "Karin Bloemen",
+        "year": "1996"
+    },
+    {
+        "edition": "2020",
+        "id": "182",
+        "title": "Adios Amigo",
+        "artist": "Jim Reeves",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "183",
+        "title": "A Day In The Life",
+        "artist": "Beatles",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "184",
+        "title": "We'll Meet Again",
+        "artist": "Vera Lynn",
+        "year": "1941"
+    },
+    {
+        "edition": "2020",
+        "id": "185",
+        "title": "On The Wings Of A Nightingale",
+        "artist": "Everly Brothers",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "186",
+        "title": "Mijn Gebed",
+        "artist": "DC Lewis",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "187",
+        "title": "Heart Of Gold",
+        "artist": "Neil Young",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "188",
+        "title": "Song Sung Blue",
+        "artist": "Neil Diamond",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "189",
+        "title": "(I Can't Get No) Satisfaction",
+        "artist": "Rolling Stones",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "190",
+        "title": "You Can't Always Get What You Want",
+        "artist": "Rolling Stones",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "191",
+        "title": "Yesterday When I Was Young",
+        "artist": "Charles Aznavour",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "192",
+        "title": "Nathalie",
+        "artist": "Gilbert Becaud",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "193",
+        "title": "Patsy",
+        "artist": "Rein de Vries",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "194",
+        "title": "Samba Pa Ti",
+        "artist": "Santana",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "195",
+        "title": "Eres Tu",
+        "artist": "Mocedades",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "196",
+        "title": "Suzanne",
+        "artist": "Leonard Cohen",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "197",
+        "title": "Our House",
+        "artist": "Crosby Stills Nash & Young",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "198",
+        "title": "Spicks And Specks",
+        "artist": "Bee Gees",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "199",
+        "title": "Zoutelande",
+        "artist": "Blof feat. Geike Arnaert",
+        "year": "2018"
+    },
+    {
+        "edition": "2020",
+        "id": "200",
+        "title": "Sympathy For The Devil",
+        "artist": "Rolling Stones",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "201",
+        "title": "Junge, Komm Bald Wieder",
+        "artist": "Freddy Quinn",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "202",
+        "title": "Chiquitita",
+        "artist": "ABBA",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "203",
+        "title": "Why Worry",
+        "artist": "Dire Straits",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "204",
+        "title": "Fernando",
+        "artist": "ABBA",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "205",
+        "title": "Fragile",
+        "artist": "Sting",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "206",
+        "title": "Save The Last Dance For Me",
+        "artist": "Cats",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "207",
+        "title": "I've Just Lost Somebody",
+        "artist": "Golden Earrings",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "208",
+        "title": "Venus",
+        "artist": "Shocking Blue",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "209",
+        "title": "Dance The Night Away",
+        "artist": "Mavericks",
+        "year": "1998"
+    },
+    {
+        "edition": "2020",
+        "id": "210",
+        "title": "I Walk The Line",
+        "artist": "Johnny Cash",
+        "year": "1956"
+    },
+    {
+        "edition": "2020",
+        "id": "211",
+        "title": "Zeg Me Dat Het Niet Zo Is",
+        "artist": "Frank Boeijen Groep",
+        "year": "1990"
+    },
+    {
+        "edition": "2020",
+        "id": "212",
+        "title": "Tombe La Neige",
+        "artist": "Adamo",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "213",
+        "title": "Only The Lonely",
+        "artist": "Roy Orbison",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "214",
+        "title": "Wooden Heart (Muss I Denn)",
+        "artist": "Elvis Presley",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "215",
+        "title": "Me And Bobby McGee",
+        "artist": "Janis Joplin",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "216",
+        "title": "Bright Eyes",
+        "artist": "Art Garfunkel",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "217",
+        "title": "My Friend The Wind",
+        "artist": "Demis Roussos",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "218",
+        "title": "Wuthering Heights",
+        "artist": "Kate Bush",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "219",
+        "title": "Zonder Jou",
+        "artist": "Paul De Leeuw & Simone Klei...",
+        "year": "1996"
+    },
+    {
+        "edition": "2020",
+        "id": "220",
+        "title": "Be My Day",
+        "artist": "Cats",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "221",
+        "title": "Still Got The Blues",
+        "artist": "Gary Moore",
+        "year": "1990"
+    },
+    {
+        "edition": "2020",
+        "id": "222",
+        "title": "Bloasmuziek",
+        "artist": "G\u00e9 Reinders",
+        "year": "1999"
+    },
+    {
+        "edition": "2020",
+        "id": "223",
+        "title": "Heroes",
+        "artist": "David Bowie",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "224",
+        "title": "Hello Mary Lou",
+        "artist": "Ricky Nelson",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "225",
+        "title": "Als De Dag Van Toen",
+        "artist": "Reinhard Mey",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "226",
+        "title": "Graceland",
+        "artist": "Paul Simon",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "227",
+        "title": "Have I Told You Lately",
+        "artist": "Van Morrison",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "228",
+        "title": "Droomland",
+        "artist": "Paul De Leeuw & Andre Hazes",
+        "year": "1993"
+    },
+    {
+        "edition": "2020",
+        "id": "229",
+        "title": "Une Belle Histoire",
+        "artist": "Michel Fugain & Le Big Bazar",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "230",
+        "title": "Whole Lotta Love",
+        "artist": "Led Zeppelin",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "231",
+        "title": "Apres Toi",
+        "artist": "Vicky Leandros",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "232",
+        "title": "Kleine Jongen",
+        "artist": "Andr\u00e9 Hazes",
+        "year": "1990"
+    },
+    {
+        "edition": "2020",
+        "id": "233",
+        "title": "Just An Illusion",
+        "artist": "BZN",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "234",
+        "title": "Jolene",
+        "artist": "Dolly Parton",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "235",
+        "title": "I Want To Break Free",
+        "artist": "Queen",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "236",
+        "title": "House For Sale",
+        "artist": "Lucifer",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "237",
+        "title": "Let's Dance",
+        "artist": "Cats",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "238",
+        "title": "I Just Can't Help Believin'",
+        "artist": "Elvis Presley",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "239",
+        "title": "The Lady In Red",
+        "artist": "Chris De Burgh",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "240",
+        "title": "She's A Rainbow",
+        "artist": "Rolling Stones",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "241",
+        "title": "Worn Down Piano",
+        "artist": "Mark & Clark Band",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "242",
+        "title": "Woman In Love",
+        "artist": "Barbra Streisand",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "243",
+        "title": "Slipping Through My Fingers",
+        "artist": "ABBA",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "244",
+        "title": "Ticket To Heaven",
+        "artist": "Dire Straits",
+        "year": "1994"
+    },
+    {
+        "edition": "2020",
+        "id": "245",
+        "title": "Liefde Van Later",
+        "artist": "Herman Van Veen",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "246",
+        "title": "Monday Monday",
+        "artist": "The Mama's & The Papa's",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "247",
+        "title": "Love Me Tender",
+        "artist": "Elvis Presley",
+        "year": "1956"
+    },
+    {
+        "edition": "2020",
+        "id": "248",
+        "title": "Leaving On A Jetplane",
+        "artist": "John Denver",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "249",
+        "title": "Oceaan",
+        "artist": "Racoon",
+        "year": "2012"
+    },
+    {
+        "edition": "2020",
+        "id": "250",
+        "title": "Ruby Tuesday",
+        "artist": "Rolling Stones",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "251",
+        "title": "The Long And Winding Road",
+        "artist": "Beatles",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "252",
+        "title": "River Deep Mountain High",
+        "artist": "Ike & Tina Turner",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "253",
+        "title": "Wonderful Land",
+        "artist": "Shadows",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "254",
+        "title": "As Tears Go By",
+        "artist": "Rolling Stones",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "255",
+        "title": "Lying All The Time",
+        "artist": "Outsiders",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "256",
+        "title": "Sailing",
+        "artist": "Rod Stewart",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "257",
+        "title": "September Morn'",
+        "artist": "Neil Diamond",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "258",
+        "title": "Rivers Of Babylon",
+        "artist": "Boney M",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "259",
+        "title": "Thorbeckeplein",
+        "artist": "Robert Long",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "260",
+        "title": "Cent Mille Chansons",
+        "artist": "Frida Boccara",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "261",
+        "title": "Dust In The Wind",
+        "artist": "Kansas",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "262",
+        "title": "The Last Time",
+        "artist": "Rolling Stones",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "263",
+        "title": "Fields Of Gold",
+        "artist": "Eva Cassidy",
+        "year": "1996"
+    },
+    {
+        "edition": "2020",
+        "id": "264",
+        "title": "Oh Pretty Woman",
+        "artist": "Roy Orbison",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "265",
+        "title": "Mon Amour",
+        "artist": "BZN",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "266",
+        "title": "Norwegian Wood",
+        "artist": "Beatles",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "267",
+        "title": "Storm And Thunder",
+        "artist": "Earth & Fire",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "268",
+        "title": "Michelle",
+        "artist": "Beatles",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "269",
+        "title": "Fields Of Gold",
+        "artist": "Sting",
+        "year": "1993"
+    },
+    {
+        "edition": "2020",
+        "id": "270",
+        "title": "Turn Around And Start Again",
+        "artist": "Cats",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "271",
+        "title": "The Life I Live",
+        "artist": "Q65",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "272",
+        "title": "MacArthur Park",
+        "artist": "Richard Harris",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "273",
+        "title": "Indian Wedding",
+        "artist": "Roy Orbison",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "274",
+        "title": "California Blue",
+        "artist": "Roy Orbison",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "275",
+        "title": "Sailin' Home",
+        "artist": "Piet Veerman",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "276",
+        "title": "Another Brick In The Wall",
+        "artist": "Pink Floyd",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "277",
+        "title": "The Wonder Of You",
+        "artist": "Elvis Presley",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "278",
+        "title": "Kronenburg Park",
+        "artist": "Frank Boeijen Groep",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "279",
+        "title": "Old Man",
+        "artist": "Neil Young",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "280",
+        "title": "Miss You Nights",
+        "artist": "Cliff Richard",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "281",
+        "title": "Ritme Van De Regen",
+        "artist": "Rob de Nijs",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "282",
+        "title": "Jukebox",
+        "artist": "Cats",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "283",
+        "title": "The Young Ones",
+        "artist": "Cliff Richard",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "284",
+        "title": "Mull Of Kintyre",
+        "artist": "Wings",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "285",
+        "title": "Gimme Shelter",
+        "artist": "Rolling Stones",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "286",
+        "title": "Always On My Mind",
+        "artist": "Willie Nelson",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "287",
+        "title": "Suzanne",
+        "artist": "Herman Van Veen",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "288",
+        "title": "Banger Hart",
+        "artist": "Rob de Nijs",
+        "year": "1996"
+    },
+    {
+        "edition": "2020",
+        "id": "289",
+        "title": "Love Hurts",
+        "artist": "Nazareth",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "290",
+        "title": "De Steen",
+        "artist": "Bram Vermeulen",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "291",
+        "title": "Songbird",
+        "artist": "Fleetwood Mac",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "292",
+        "title": "This Strange Effect",
+        "artist": "Dave Berry",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "293",
+        "title": "Lady Jane",
+        "artist": "Rolling Stones",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "294",
+        "title": "It's Over",
+        "artist": "Roy Orbison",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "295",
+        "title": "Ben",
+        "artist": "Michael Jackson",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "296",
+        "title": "Peggy Sue",
+        "artist": "Buddy Holly",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "297",
+        "title": "Streets Of Philadelphia",
+        "artist": "Bruce Springsteen",
+        "year": "1994"
+    },
+    {
+        "edition": "2020",
+        "id": "298",
+        "title": "Penny Lane",
+        "artist": "Beatles",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "299",
+        "title": "Ebony Eyes",
+        "artist": "Everly Brothers",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "300",
+        "title": "Bloed Zweet En Tranen",
+        "artist": "Andr\u00e9 Hazes",
+        "year": "2002"
+    },
+    {
+        "edition": "2020",
+        "id": "301",
+        "title": "Sure He's A Cat",
+        "artist": "Cats",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "302",
+        "title": "Walk Of Life",
+        "artist": "Dire Straits",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "303",
+        "title": "Non, Non, Rien N'a Chang\u00e9",
+        "artist": "Poppys",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "304",
+        "title": "Blue Bayou",
+        "artist": "Linda Ronstadt",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "305",
+        "title": "Year Of The Cat",
+        "artist": "Al Stewart",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "306",
+        "title": "Save The Last Dance For Me",
+        "artist": "Drifters",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "307",
+        "title": "Songbird",
+        "artist": "Eva Cassidy",
+        "year": "1995"
+    },
+    {
+        "edition": "2020",
+        "id": "308",
+        "title": "Brandend Zand",
+        "artist": "Anneke Gronloh",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "309",
+        "title": "Let It Be Me",
+        "artist": "Everly Brothers",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "310",
+        "title": "Summer Is Over",
+        "artist": "Dusty Springfield",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "311",
+        "title": "Hurricane (lange versie)",
+        "artist": "Bob Dylan",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "312",
+        "title": "Belfast Child",
+        "artist": "Simple Minds",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "313",
+        "title": "In The Year 2525",
+        "artist": "Zager & Evans",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "314",
+        "title": "Proud Mary",
+        "artist": "Ike & Tina Turner",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "315",
+        "title": "Don't Give Up",
+        "artist": "Peter Gabriel & Kate Bush",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "316",
+        "title": "Stil In Mij",
+        "artist": "Van Dik Hout",
+        "year": "1994"
+    },
+    {
+        "edition": "2020",
+        "id": "317",
+        "title": "I Will Always Love You",
+        "artist": "Dolly Parton",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "318",
+        "title": "Make You Feel My Love",
+        "artist": "Adele",
+        "year": "2008"
+    },
+    {
+        "edition": "2020",
+        "id": "319",
+        "title": "Stay With Me 'Til The Morning",
+        "artist": "Vicki Brown & New London Chorale",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "320",
+        "title": "Ben Ik Te Min",
+        "artist": "Armand",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "321",
+        "title": "Liefste, M'n Liefste",
+        "artist": "Robert Long",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "322",
+        "title": "Little Bird",
+        "artist": "Tielman Brothers",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "323",
+        "title": "The Carnival Is Over",
+        "artist": "Seekers",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "324",
+        "title": "It's Now Or Never",
+        "artist": "Elvis Presley",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "325",
+        "title": "No Regrets",
+        "artist": "Walker Brothers",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "326",
+        "title": "Atlantis",
+        "artist": "Shadows",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "327",
+        "title": "Because I Love You",
+        "artist": "Buddy Holly",
+        "year": "1956"
+    },
+    {
+        "edition": "2020",
+        "id": "328",
+        "title": "Forever And Ever",
+        "artist": "Demis Roussos",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "329",
+        "title": "Telkens Weer",
+        "artist": "Willeke Alberti",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "330",
+        "title": "With A Little Help From My Friends",
+        "artist": "Joe Cocker",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "331",
+        "title": "With Or Without You",
+        "artist": "U2",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "332",
+        "title": "Lyin' Eyes",
+        "artist": "Eagles",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "333",
+        "title": "Candle In The Wind",
+        "artist": "Elton John",
+        "year": "1997"
+    },
+    {
+        "edition": "2020",
+        "id": "334",
+        "title": "Purple Rain (album versie)",
+        "artist": "Prince",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "335",
+        "title": "De Nozem En De Non",
+        "artist": "Cornelis Vreeswijk",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "336",
+        "title": "Brown Eyed Girl",
+        "artist": "Van Morrison",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "337",
+        "title": "Homburg",
+        "artist": "Procol Harum",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "338",
+        "title": "Queen For Tonight",
+        "artist": "Helen Shapiro",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "339",
+        "title": "You've Got Your Troubles",
+        "artist": "Fortunes",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "340",
+        "title": "The First Time Ever I Saw Your Face",
+        "artist": "Roberta Flack",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "341",
+        "title": "Magical Mystery Morning",
+        "artist": "Cats",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "342",
+        "title": "Morningside",
+        "artist": "Neil Diamond",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "343",
+        "title": "When A Man Loves A Woman",
+        "artist": "Percy Sledge",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "344",
+        "title": "I'm Not In Love",
+        "artist": "10 CC",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "345",
+        "title": "Where Do You Go To My Lovely",
+        "artist": "Peter Sarstedt",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "346",
+        "title": "The Elephant Song",
+        "artist": "Kamahl",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "347",
+        "title": "If You Leave Me Now",
+        "artist": "Chicago",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "348",
+        "title": "'t Is Weer Voorbij Die Mooie Zomer",
+        "artist": "Gerard Cox",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "349",
+        "title": "Space Oddity",
+        "artist": "David Bowie",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "350",
+        "title": "New Kid In Town",
+        "artist": "Eagles",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "351",
+        "title": "Memory",
+        "artist": "Barbra Streisand",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "352",
+        "title": "Paranoid",
+        "artist": "Black Sabbath",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "353",
+        "title": "The Wild Rover",
+        "artist": "Dubliners",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "354",
+        "title": "Sara",
+        "artist": "Fleetwood Mac",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "355",
+        "title": "Ich Bin Wie Du",
+        "artist": "Marianne Rosenberg",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "356",
+        "title": "You're The First, The Last, My Everything",
+        "artist": "Barry White",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "357",
+        "title": "Go Like Elijah",
+        "artist": "Chi Coltrane",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "358",
+        "title": "Tougher Than The Rest",
+        "artist": "Bruce Springsteen",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "359",
+        "title": "Angels",
+        "artist": "Robbie Williams",
+        "year": "1997"
+    },
+    {
+        "edition": "2020",
+        "id": "360",
+        "title": "Bring It On Home To Me",
+        "artist": "Animals",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "361",
+        "title": "Veronica",
+        "artist": "Cornelis Vreeswijk",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "362",
+        "title": "San Quentin",
+        "artist": "Johnny Cash",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "363",
+        "title": "Tears In The Morning",
+        "artist": "Beach Boys",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "364",
+        "title": "Westenwind",
+        "artist": "Dana Winner",
+        "year": "1995"
+    },
+    {
+        "edition": "2020",
+        "id": "365",
+        "title": "Take Five",
+        "artist": "Dave Brubeck Quartet",
+        "year": "1959"
+    },
+    {
+        "edition": "2020",
+        "id": "366",
+        "title": "Girl You'll Be A Woman Soon",
+        "artist": "Neil Diamond",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "367",
+        "title": "Careless Whisper",
+        "artist": "George Michael",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "368",
+        "title": "Goodnight Saigon",
+        "artist": "Billy Joel",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "369",
+        "title": "Con Te Partiro",
+        "artist": "Andrea Bocelli",
+        "year": "1995"
+    },
+    {
+        "edition": "2020",
+        "id": "370",
+        "title": "Door De Wind",
+        "artist": "Miss Montreal",
+        "year": "2020"
+    },
+    {
+        "edition": "2020",
+        "id": "371",
+        "title": "Had To Fall In Love",
+        "artist": "Moody Blues",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "372",
+        "title": "Sound Of The Screaming Day",
+        "artist": "Golden Earrings",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "373",
+        "title": "Father And Son",
+        "artist": "Cat Stevens",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "374",
+        "title": "One Of These Nights",
+        "artist": "Eagles",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "375",
+        "title": "The Man With The Child In His Eyes",
+        "artist": "Kate Bush",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "376",
+        "title": "Crying",
+        "artist": "Roy Orbison",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "377",
+        "title": "Osaka",
+        "artist": "Shoes",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "378",
+        "title": "Proud Mary",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "379",
+        "title": "The Second Waltz",
+        "artist": "Andr\u00e9 Rieu",
+        "year": "1994"
+    },
+    {
+        "edition": "2020",
+        "id": "380",
+        "title": "De Peel In Brand",
+        "artist": "Rowwen Heze",
+        "year": "2005"
+    },
+    {
+        "edition": "2020",
+        "id": "381",
+        "title": "I Won't Forget You",
+        "artist": "Jim Reeves",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "382",
+        "title": "Het Land Van Maas En Waal",
+        "artist": "Boudewijn De Groot",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "383",
+        "title": "Haus Am See",
+        "artist": "Peter Fox",
+        "year": "2008"
+    },
+    {
+        "edition": "2020",
+        "id": "384",
+        "title": "One",
+        "artist": "U2",
+        "year": "1991"
+    },
+    {
+        "edition": "2020",
+        "id": "385",
+        "title": "Papa Was A Rolling Stone",
+        "artist": "Temptations",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "386",
+        "title": "Go Now",
+        "artist": "Moody Blues",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "387",
+        "title": "Vienna",
+        "artist": "Ultravox",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "388",
+        "title": "Cafe Biljart",
+        "artist": "Toon Hermans",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "389",
+        "title": "Geef Mij Je Angst",
+        "artist": "Andr\u00e9 Hazes",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "390",
+        "title": "Jeanny",
+        "artist": "Falco",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "391",
+        "title": "Mr. Tambourine Man",
+        "artist": "Byrds",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "392",
+        "title": "Gloria",
+        "artist": "Them",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "393",
+        "title": "'k Heb Je Lief",
+        "artist": "Paul De Leeuw",
+        "year": "1997"
+    },
+    {
+        "edition": "2020",
+        "id": "394",
+        "title": "If",
+        "artist": "Bread",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "395",
+        "title": "Spiegelbeeld",
+        "artist": "Willeke Alberti",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "396",
+        "title": "Blowin' In The Wind",
+        "artist": "Bob Dylan",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "397",
+        "title": "You Are So Beautiful",
+        "artist": "Joe Cocker",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "398",
+        "title": "Blauw",
+        "artist": "The Scene",
+        "year": "1991"
+    },
+    {
+        "edition": "2020",
+        "id": "399",
+        "title": "Beautiful People",
+        "artist": "Melanie",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "400",
+        "title": "Il Est Cinq Heures, Paris S'\u00e9veille",
+        "artist": "Jacques Dutronc",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "401",
+        "title": "Oerend Hard",
+        "artist": "Normaal",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "402",
+        "title": "Halt Mich",
+        "artist": "Herbert Gronemeijer",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "403",
+        "title": "How Deep Is Your Love",
+        "artist": "Bee Gees",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "404",
+        "title": "Rain And Tears",
+        "artist": "Aphrodite's Child",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "405",
+        "title": "Viva La Vida",
+        "artist": "Coldplay",
+        "year": "2008"
+    },
+    {
+        "edition": "2020",
+        "id": "406",
+        "title": "It Was A Very Good Year",
+        "artist": "Frank Sinatra",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "407",
+        "title": "Les Lacs Du Connemara",
+        "artist": "Michel Sardou",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "408",
+        "title": "Andante Andante",
+        "artist": "ABBA",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "409",
+        "title": "Like A Rolling Stone",
+        "artist": "Bob Dylan",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "410",
+        "title": "Ik Ben Blij Dat Ik Je Niet Vergeten Ben",
+        "artist": "Joost Nuissl",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "411",
+        "title": "Sylvia's Mother",
+        "artist": "Dr. Hook & The Medicine Show",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "412",
+        "title": "Birds",
+        "artist": "Anouk",
+        "year": "2013"
+    },
+    {
+        "edition": "2020",
+        "id": "413",
+        "title": "Loving Her Was Easier",
+        "artist": "Jos\u00e9 Feliciano",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "414",
+        "title": "Suzie Q",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "415",
+        "title": "Lola",
+        "artist": "Kinks",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "416",
+        "title": "Streets Of London",
+        "artist": "Ralph McTell",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "417",
+        "title": "Scarborough Fair",
+        "artist": "Simon & Garfunkel",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "418",
+        "title": "Living Doll",
+        "artist": "Cliff Richard",
+        "year": "1959"
+    },
+    {
+        "edition": "2020",
+        "id": "419",
+        "title": "Tequila Sunrise",
+        "artist": "Eagles",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "420",
+        "title": "Geef Mij Je Angst",
+        "artist": "Guus Meeuwis",
+        "year": "2005"
+    },
+    {
+        "edition": "2020",
+        "id": "421",
+        "title": "Eleanor Rigby",
+        "artist": "Beatles",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "422",
+        "title": "Mijn Vlakke Land",
+        "artist": "Jacques Brel",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "423",
+        "title": "Give Up Your Guns",
+        "artist": "Buoys",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "424",
+        "title": "Zij Gelooft In Mij",
+        "artist": "Andr\u00e9 Hazes",
+        "year": "2004"
+    },
+    {
+        "edition": "2020",
+        "id": "425",
+        "title": "The Great Pretender",
+        "artist": "Platters",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "426",
+        "title": "Crying In The Rain",
+        "artist": "Everly Brothers",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "427",
+        "title": "Only Time",
+        "artist": "Enya",
+        "year": "2001"
+    },
+    {
+        "edition": "2020",
+        "id": "428",
+        "title": "In The Air Tonight",
+        "artist": "Phil Collins",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "429",
+        "title": "Een Meisje Van 16",
+        "artist": "Boudewijn De Groot",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "430",
+        "title": "Atlantis",
+        "artist": "Donovan",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "431",
+        "title": "Hello Again",
+        "artist": "Neil Diamond",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "432",
+        "title": "Why Tell Me Why",
+        "artist": "Anita Meyer",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "433",
+        "title": "Little Red Rooster",
+        "artist": "Rolling Stones",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "434",
+        "title": "I'll Never Find Another You",
+        "artist": "Seekers",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "435",
+        "title": "Dolce Paola",
+        "artist": "Adamo",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "436",
+        "title": "When I'm Sixty-Four",
+        "artist": "Beatles",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "437",
+        "title": "To Love Somebody",
+        "artist": "Bee Gees",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "438",
+        "title": "Time To Say Goodbye",
+        "artist": "Sarah Brightman & Andrea B...",
+        "year": "1996"
+    },
+    {
+        "edition": "2020",
+        "id": "439",
+        "title": "Your Song",
+        "artist": "Elton John",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "440",
+        "title": "No Woman No Cry",
+        "artist": "Bob Marley & The Wailers",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "441",
+        "title": "Sacramento",
+        "artist": "Middle Of The Road",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "442",
+        "title": "Play Me",
+        "artist": "Neil Diamond",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "443",
+        "title": "You've Lost That Lovin' Feelin'",
+        "artist": "Righteous Brothers",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "444",
+        "title": "Merci Cherie",
+        "artist": "Udo Jurgens",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "445",
+        "title": "I Won't Stand Between Them",
+        "artist": "Bonnie St. Claire",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "446",
+        "title": "Mrs Robinson",
+        "artist": "Simon & Garfunkel",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "447",
+        "title": "No Milk Today",
+        "artist": "Herman's Hermits",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "448",
+        "title": "Take It Easy",
+        "artist": "Eagles",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "449",
+        "title": "Vanmorgen Vloog Ze Nog",
+        "artist": "Musical Tsjechov",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "450",
+        "title": "Wonderful Tonight",
+        "artist": "Eric Clapton",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "451",
+        "title": "Dochters",
+        "artist": "Marco Borsato",
+        "year": "2008"
+    },
+    {
+        "edition": "2020",
+        "id": "452",
+        "title": "La Mamma",
+        "artist": "Charles Aznavour",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "453",
+        "title": "Ein Festival Der Liebe",
+        "artist": "Jurgen Marcus",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "454",
+        "title": "The Sun Ain't Gonna Shine Anymore",
+        "artist": "Walker Brothers",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "455",
+        "title": "I Heard It Through The Grapevine",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "456",
+        "title": "Jesus To A Child",
+        "artist": "George Michael",
+        "year": "1996"
+    },
+    {
+        "edition": "2020",
+        "id": "457",
+        "title": "Baker Street",
+        "artist": "Gerry Rafferty",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "458",
+        "title": "Bye Bye Love",
+        "artist": "Everly Brothers",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "459",
+        "title": "Back To Black",
+        "artist": "Amy Winehouse",
+        "year": "2011"
+    },
+    {
+        "edition": "2020",
+        "id": "460",
+        "title": "I've Got Dreams To Remember",
+        "artist": "Otis Redding",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "461",
+        "title": "Summer Holiday",
+        "artist": "Cliff Richard",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "462",
+        "title": "Devoted To You",
+        "artist": "Everly Brothers",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "463",
+        "title": "Something",
+        "artist": "Beatles",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "464",
+        "title": "Strawberry Fields Forever",
+        "artist": "Beatles",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "465",
+        "title": "Tell Him",
+        "artist": "Celine Dion & Barbara Streis...",
+        "year": "1997"
+    },
+    {
+        "edition": "2020",
+        "id": "466",
+        "title": "As Tears Go By",
+        "artist": "Marianne Faithfull",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "467",
+        "title": "Gute Nacht, Freunde",
+        "artist": "Reinhard Mey",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "468",
+        "title": "The Fool On The Hill",
+        "artist": "Beatles",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "469",
+        "title": "Hurt",
+        "artist": "Timi Yuro",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "470",
+        "title": "Zonder Jou",
+        "artist": "Rob de Nijs",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "471",
+        "title": "Marmor, Stein Und Eisen Bricht",
+        "artist": "Drafi Deutscher",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "472",
+        "title": "I Want To Know What Love Is",
+        "artist": "Foreigner",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "473",
+        "title": "A Horse With No Name",
+        "artist": "America",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "474",
+        "title": "Als De Zon Schijnt",
+        "artist": "Andr\u00e9 Van Duin",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "475",
+        "title": "A Night Like This",
+        "artist": "Caro Emerald",
+        "year": "2010"
+    },
+    {
+        "edition": "2020",
+        "id": "476",
+        "title": "Goodbye My Love Goodbye",
+        "artist": "Demis Roussos",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "477",
+        "title": "Welcome To My World",
+        "artist": "Jim Reeves",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "478",
+        "title": "A Thing Called Love",
+        "artist": "Johnny Cash",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "479",
+        "title": "Earth Song",
+        "artist": "Michael Jackson",
+        "year": "1994"
+    },
+    {
+        "edition": "2020",
+        "id": "480",
+        "title": "Als Ze Er Niet Is",
+        "artist": "De Dijk",
+        "year": "1994"
+    },
+    {
+        "edition": "2020",
+        "id": "481",
+        "title": "Another 45 Miles",
+        "artist": "Golden Earring",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "482",
+        "title": "Heaven Must Be Missing An Angel",
+        "artist": "Tavares",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "483",
+        "title": "Iedereen Doet 'T",
+        "artist": "Robert Long",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "484",
+        "title": "'t Kleine Caf\u00e9 Aan De Haven",
+        "artist": "Vader Abraham",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "485",
+        "title": "I Don't Believe In If Anymore",
+        "artist": "Roger Whittaker",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "486",
+        "title": "I Still Haven't Found What I'm Looking For",
+        "artist": "U2",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "487",
+        "title": "Black Magic Woman",
+        "artist": "Santana",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "488",
+        "title": "Clocks",
+        "artist": "Coldplay",
+        "year": "2003"
+    },
+    {
+        "edition": "2020",
+        "id": "489",
+        "title": "Die Gitarre Und Das Meer",
+        "artist": "Freddy Quinn",
+        "year": "1959"
+    },
+    {
+        "edition": "2020",
+        "id": "490",
+        "title": "Mooi Was Die Tijd",
+        "artist": "Corry Konings",
+        "year": "1990"
+    },
+    {
+        "edition": "2020",
+        "id": "491",
+        "title": "The Way Old Friends Do",
+        "artist": "ABBA",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "492",
+        "title": "Another 45 Miles (live)",
+        "artist": "Golden Earring",
+        "year": "1993"
+    },
+    {
+        "edition": "2020",
+        "id": "493",
+        "title": "One Night",
+        "artist": "Elvis Presley",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "494",
+        "title": "Forever Young",
+        "artist": "Alphaville",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "495",
+        "title": "Sukiyaki",
+        "artist": "Kyu Sakamoto",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "496",
+        "title": "Blue Bayou",
+        "artist": "Roy Orbison",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "497",
+        "title": "Island In The Sun",
+        "artist": "Harry Belafonte",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "498",
+        "title": "Memories",
+        "artist": "Earth & Fire",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "499",
+        "title": "See Me, Feel Me",
+        "artist": "The Who",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "500",
+        "title": "A Salty Dog",
+        "artist": "Procol Harum",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "501",
+        "title": "Somebody To Love",
+        "artist": "George Michael & Queen",
+        "year": "1993"
+    },
+    {
+        "edition": "2020",
+        "id": "502",
+        "title": "Ring Ring, I've Got To Sing",
+        "artist": "Ferre Grignard",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "503",
+        "title": "Someone Like You",
+        "artist": "Adele",
+        "year": "2011"
+    },
+    {
+        "edition": "2020",
+        "id": "504",
+        "title": "Lola (Live)",
+        "artist": "Kinks",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "505",
+        "title": "Maid Of Orleans",
+        "artist": "Orchestral Manoeuvres In T...",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "506",
+        "title": "Eye In The Sky",
+        "artist": "Alan Parsons Project",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "507",
+        "title": "Quand Les Roses",
+        "artist": "Adamo",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "508",
+        "title": "A Different Corner",
+        "artist": "George Michael",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "509",
+        "title": "Smoke On The Water",
+        "artist": "Deep Purple",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "510",
+        "title": "Que Sera Sera (Whatever Will Be Will Be)",
+        "artist": "Doris Day",
+        "year": "1956"
+    },
+    {
+        "edition": "2020",
+        "id": "511",
+        "title": "Theme From The Deerhunter",
+        "artist": "Shadows",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "512",
+        "title": "Love Letters In The Sand",
+        "artist": "Pat Boone",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "513",
+        "title": "You've Got A Friend",
+        "artist": "Carole King",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "514",
+        "title": "Honey",
+        "artist": "Bobby Goldsboro",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "515",
+        "title": "Days",
+        "artist": "Kinks",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "516",
+        "title": "Paloma Blanca",
+        "artist": "George Baker Selection",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "517",
+        "title": "Naast Jou",
+        "artist": "Boudewijn De Groot",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "518",
+        "title": "White Room",
+        "artist": "Cream",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "519",
+        "title": "Hello",
+        "artist": "Adele",
+        "year": "2015"
+    },
+    {
+        "edition": "2020",
+        "id": "520",
+        "title": "Calm After The Storm",
+        "artist": "Common Linnets",
+        "year": "2014"
+    },
+    {
+        "edition": "2020",
+        "id": "521",
+        "title": "Grand Hotel",
+        "artist": "Procol Harum",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "522",
+        "title": "Time Is On My Side",
+        "artist": "Rolling Stones",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "523",
+        "title": "One Of Us",
+        "artist": "ABBA",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "524",
+        "title": "In A Gadda Da Vida",
+        "artist": "Iron Butterfly",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "525",
+        "title": "Hier Encore",
+        "artist": "Charles Aznavour",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "526",
+        "title": "Where The Streets Have No Name",
+        "artist": "U2",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "527",
+        "title": "Crying In The Chapel",
+        "artist": "Elvis Presley",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "528",
+        "title": "Sammy",
+        "artist": "Ramses Shaffy",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "529",
+        "title": "Eve Of Destruction",
+        "artist": "Barry McGuire",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "530",
+        "title": "Mag Het Licht Uit",
+        "artist": "De Dijk",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "531",
+        "title": "The Eyes Of Jenny",
+        "artist": "Sandy Coast",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "532",
+        "title": "Tell Me",
+        "artist": "Rolling Stones",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "533",
+        "title": "Marina",
+        "artist": "Rocco Granata",
+        "year": "1959"
+    },
+    {
+        "edition": "2020",
+        "id": "534",
+        "title": "Release Me",
+        "artist": "Engelbert Humperdinck",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "535",
+        "title": "Arcade",
+        "artist": "Duncan Laurence",
+        "year": "2019"
+    },
+    {
+        "edition": "2020",
+        "id": "536",
+        "title": "Move It",
+        "artist": "Cliff Richard",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "537",
+        "title": "My Home Town",
+        "artist": "Bruce Springsteen",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "538",
+        "title": "Allemaal Angst",
+        "artist": "Robert Long",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "539",
+        "title": "A Boy Named Sue",
+        "artist": "Johnny Cash",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "540",
+        "title": "Misschien Wordt Het Morgen Beter",
+        "artist": "Cornelis Vreeswijk",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "541",
+        "title": "Malle Babbe",
+        "artist": "Rob de Nijs",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "542",
+        "title": "The Turn Of A Friendly Card",
+        "artist": "Alan Parsons Project",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "543",
+        "title": "Love On The Rocks",
+        "artist": "Neil Diamond",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "544",
+        "title": "The Old Fashioned Way",
+        "artist": "Charles Aznavour",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "545",
+        "title": "The Road Ahead (Miles Of The Unknown)",
+        "artist": "City To City",
+        "year": "1999"
+    },
+    {
+        "edition": "2020",
+        "id": "546",
+        "title": "Silence Is Golden",
+        "artist": "Tremeloes",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "547",
+        "title": "We Belong To The Night",
+        "artist": "Ellen Foley",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "548",
+        "title": "There's No More Corn On The Brasos",
+        "artist": "Walkers",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "549",
+        "title": "24 Rozen",
+        "artist": "Toon Hermans",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "550",
+        "title": "My Broken Souvenirs",
+        "artist": "Pussycat",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "551",
+        "title": "Waterloo",
+        "artist": "ABBA",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "552",
+        "title": "(They Long To Be) Close To You",
+        "artist": "Carpenters",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "553",
+        "title": "Papa Can You Hear Me",
+        "artist": "Barbra Streisand",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "554",
+        "title": "Time Is Tight",
+        "artist": "Booker T & The MG's",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "555",
+        "title": "All You Need Is Love",
+        "artist": "Beatles",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "556",
+        "title": "Downtown",
+        "artist": "Petula Clark",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "557",
+        "title": "Wind Of Change",
+        "artist": "Scorpions",
+        "year": "1991"
+    },
+    {
+        "edition": "2020",
+        "id": "558",
+        "title": "Vivo Per Lei",
+        "artist": "Andrea Bocelli & Giorgia",
+        "year": "1996"
+    },
+    {
+        "edition": "2020",
+        "id": "559",
+        "title": "Biscaya",
+        "artist": "James Last",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "560",
+        "title": "Lucky Lips",
+        "artist": "Cliff Richard",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "561",
+        "title": "Living Next Door To Alice",
+        "artist": "Smokie",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "562",
+        "title": "The Best",
+        "artist": "Tina Turner",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "563",
+        "title": "An American Triology",
+        "artist": "Elvis Presley",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "564",
+        "title": "Easy Livin'",
+        "artist": "Uriah Heep",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "565",
+        "title": "Down Man",
+        "artist": "Brainbox",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "566",
+        "title": "Prikkebeen",
+        "artist": "Boudewijn De Groot",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "567",
+        "title": "I Will Always Love You",
+        "artist": "Whitney Houston",
+        "year": "1992"
+    },
+    {
+        "edition": "2020",
+        "id": "568",
+        "title": "Only You (And You Alone)",
+        "artist": "Platters",
+        "year": "1955"
+    },
+    {
+        "edition": "2020",
+        "id": "569",
+        "title": "The Show Must Go On",
+        "artist": "Queen",
+        "year": "1991"
+    },
+    {
+        "edition": "2020",
+        "id": "570",
+        "title": "Il Silenzio",
+        "artist": "Nini Rosso",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "571",
+        "title": "In My Life",
+        "artist": "Beatles",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "572",
+        "title": "Nikita",
+        "artist": "Elton John",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "573",
+        "title": "You'll Never Walk Alone",
+        "artist": "Lee Towers",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "574",
+        "title": "The Logical Song",
+        "artist": "Supertramp",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "575",
+        "title": "This Melody",
+        "artist": "Julien Clerc",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "576",
+        "title": "In The Dutch Mountains",
+        "artist": "Nits",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "577",
+        "title": "Griechischer Wein",
+        "artist": "Udo Jurgens",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "578",
+        "title": "Prachtig Mooie Dag",
+        "artist": "Daniel Lohues",
+        "year": "2011"
+    },
+    {
+        "edition": "2020",
+        "id": "579",
+        "title": "All I Have To Do Is Dream",
+        "artist": "Everly Brothers",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "580",
+        "title": "Forever Autumn",
+        "artist": "Jeff Wayne & Justin Hayward",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "581",
+        "title": "Song Of The Marching Children",
+        "artist": "Earth & Fire",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "582",
+        "title": "Heartbeat",
+        "artist": "Buddy Holly",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "583",
+        "title": "Skyfall",
+        "artist": "Adele",
+        "year": "2012"
+    },
+    {
+        "edition": "2020",
+        "id": "584",
+        "title": "The Last Farewell",
+        "artist": "Roger Whittaker",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "585",
+        "title": "Limburg",
+        "artist": "Rowwen H\u00e8ze",
+        "year": "1996"
+    },
+    {
+        "edition": "2020",
+        "id": "586",
+        "title": "Oh Well",
+        "artist": "Fleetwood Mac",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "587",
+        "title": "Stayin' Alive",
+        "artist": "Bee Gees",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "588",
+        "title": "I'll Have To Say I Love You In A Song",
+        "artist": "Jim Croce",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "589",
+        "title": "Roll Over Lay Down",
+        "artist": "Status Quo",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "590",
+        "title": "Help!",
+        "artist": "Beatles",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "591",
+        "title": "Little Ship",
+        "artist": "Blue Diamonds",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "592",
+        "title": "La Mamma",
+        "artist": "Corry Brokken",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "593",
+        "title": "Summertime",
+        "artist": "Brainbox",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "594",
+        "title": "Sunny Afternoon",
+        "artist": "Kinks",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "595",
+        "title": "When The Lady Smiles",
+        "artist": "Golden Earring",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "596",
+        "title": "100 Years",
+        "artist": "Joey Dyser",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "597",
+        "title": "Eenzaam Zonder Jou",
+        "artist": "Will Tura",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "598",
+        "title": "Leef!",
+        "artist": "Andre Hazes Jr.",
+        "year": "2015"
+    },
+    {
+        "edition": "2020",
+        "id": "599",
+        "title": "Ginny Come Lately",
+        "artist": "Albert West",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "600",
+        "title": "Ich Hab' Die Liebe Geseh'n",
+        "artist": "Vicky Leandros",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "601",
+        "title": "First Of May",
+        "artist": "Bee Gees",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "602",
+        "title": "Band On The Run",
+        "artist": "Paul McCartney & Wings",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "603",
+        "title": "Waterloo Sunset",
+        "artist": "Kinks",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "604",
+        "title": "The Unforgettable Fire",
+        "artist": "U2",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "605",
+        "title": "Sealed With A Kiss",
+        "artist": "Bobby Vinton",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "606",
+        "title": "The Last Seven Days",
+        "artist": "Gloria",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "607",
+        "title": "Quiero",
+        "artist": "Julio Iglesias",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "608",
+        "title": "Then I Kissed Her",
+        "artist": "Beach Boys",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "609",
+        "title": "Whatever You Want",
+        "artist": "Status Quo",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "610",
+        "title": "Uber Den Wolken",
+        "artist": "Reinhard Mey",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "611",
+        "title": "Pour Moi La Vie Va Commencer",
+        "artist": "Johnny Hallyday",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "612",
+        "title": "Saved By The Bell",
+        "artist": "Robin Gibb",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "613",
+        "title": "Killer Queen",
+        "artist": "Queen",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "614",
+        "title": "Hier Kom Ik Weg",
+        "artist": "Daniel Lohues",
+        "year": "2008"
+    },
+    {
+        "edition": "2020",
+        "id": "615",
+        "title": "Skybird",
+        "artist": "Neil Diamond",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "616",
+        "title": "Gigi L'Amoroso",
+        "artist": "Dalida",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "617",
+        "title": "Long As I Can See The Light",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "618",
+        "title": "Fortunate Son",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "619",
+        "title": "My Sweet Lord",
+        "artist": "George Harrison",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "620",
+        "title": "Constantly",
+        "artist": "Cliff Richard",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "621",
+        "title": "Turn! Turn! Turn!",
+        "artist": "Byrds",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "622",
+        "title": "Born To Run",
+        "artist": "Bruce Springsteen",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "623",
+        "title": "Anak",
+        "artist": "Freddie Aguilar",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "624",
+        "title": "Moonlight Shadow",
+        "artist": "Mike Oldfield",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "625",
+        "title": "You Needed Me",
+        "artist": "Anne Murray",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "626",
+        "title": "N'Oubliez Jamais",
+        "artist": "Joe Cocker",
+        "year": "1997"
+    },
+    {
+        "edition": "2020",
+        "id": "627",
+        "title": "Nine Million Bicycles",
+        "artist": "Katie Melua",
+        "year": "2005"
+    },
+    {
+        "edition": "2020",
+        "id": "628",
+        "title": "Stand By Your Man",
+        "artist": "Tammy Wynette",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "629",
+        "title": "Oh Carol",
+        "artist": "Neil Sedaka",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "630",
+        "title": "Max",
+        "artist": "Paolo Conte",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "631",
+        "title": "Handle With Care",
+        "artist": "Traveling Wilburys",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "632",
+        "title": "Suspicion",
+        "artist": "Elvis Presley",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "633",
+        "title": "Cecilia",
+        "artist": "Simon & Garfunkel",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "634",
+        "title": "Do You Wanna Dance",
+        "artist": "Cliff Richard",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "635",
+        "title": "Dedicated Follower Of Fashion",
+        "artist": "Kinks",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "636",
+        "title": "Wild Horses",
+        "artist": "Rolling Stones",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "637",
+        "title": "Margrietje",
+        "artist": "Louis Neefs",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "638",
+        "title": "Diana",
+        "artist": "Paul Anka",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "639",
+        "title": "Spanish Eyes",
+        "artist": "Al Martino",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "640",
+        "title": "Summer Is Here",
+        "artist": "Outsiders",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "641",
+        "title": "Light My Fire (albumversie)",
+        "artist": "Doors",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "642",
+        "title": "Daydream Believer",
+        "artist": "Monkees",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "643",
+        "title": "Guilty",
+        "artist": "Barbra Streisand & Barry Gibb",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "644",
+        "title": "Ik Ga Naar Frankrijk",
+        "artist": "Amazing Stroopwafels",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "645",
+        "title": "Battle Hymn Of The Republic",
+        "artist": "Andy Williams",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "646",
+        "title": "Hello Josephine",
+        "artist": "Scorpions",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "647",
+        "title": "Lady D'Arbanville",
+        "artist": "Cat Stevens",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "648",
+        "title": "The Last Waltz",
+        "artist": "Engelbert Humperdinck",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "649",
+        "title": "Rolling In The Deep",
+        "artist": "Adele",
+        "year": "2011"
+    },
+    {
+        "edition": "2020",
+        "id": "650",
+        "title": "Aan de Andere Kant Van De Heuvels",
+        "artist": "Liesbeth List & Ramses Shaffy",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "651",
+        "title": "Dreams",
+        "artist": "Fleetwood Mac",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "652",
+        "title": "American Pie",
+        "artist": "Don McLean",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "653",
+        "title": "De Glimlach Van Een Kind",
+        "artist": "Willy Alberti",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "654",
+        "title": "Little Green Bag",
+        "artist": "George Baker Selection",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "655",
+        "title": "36-24-36",
+        "artist": "Shadows",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "656",
+        "title": "Waiting On A Friend",
+        "artist": "Rolling Stones",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "657",
+        "title": "Back Home",
+        "artist": "Golden Earring",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "658",
+        "title": "How Can You Mend A Broken Heart",
+        "artist": "Bee Gees",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "659",
+        "title": "Land Of Hope And Glory",
+        "artist": "Vera Lynn",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "660",
+        "title": "Yesterday Once More",
+        "artist": "Carpenters",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "661",
+        "title": "A Forest",
+        "artist": "Cure",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "662",
+        "title": "Sunshine On My Shoulders",
+        "artist": "John Denver",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "663",
+        "title": "Dynamite",
+        "artist": "Mud",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "664",
+        "title": "To All The Girls I've Loved Before",
+        "artist": "Julio Iglesias & Willie Nelson",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "665",
+        "title": "Liefs Uit Londen",
+        "artist": "Blof",
+        "year": "1997"
+    },
+    {
+        "edition": "2020",
+        "id": "666",
+        "title": "Harvest",
+        "artist": "Neil Young",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "667",
+        "title": "At Seventeen",
+        "artist": "Janis Ian",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "668",
+        "title": "Both Sides Now",
+        "artist": "Euson",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "669",
+        "title": "Jailhouse Rock",
+        "artist": "Elvis Presley",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "670",
+        "title": "Tanze Mit Mir In Den Morgen",
+        "artist": "Gerhard Wendland",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "671",
+        "title": "Jimmy",
+        "artist": "Boudewijn De Groot",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "672",
+        "title": "World",
+        "artist": "Bee Gees",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "673",
+        "title": "More Than A Feeling",
+        "artist": "Boston",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "674",
+        "title": "The 5th",
+        "artist": "Ekseption",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "675",
+        "title": "The Old Calahan",
+        "artist": "BZN",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "676",
+        "title": "This Is My Song",
+        "artist": "Petula Clark",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "677",
+        "title": "Guitar Tango",
+        "artist": "Shadows",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "678",
+        "title": "You Don't Have To Say You Love Me",
+        "artist": "Dusty Springfield",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "679",
+        "title": "Buona Sera",
+        "artist": "Louis Prima",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "680",
+        "title": "Beneden Alle Peil",
+        "artist": "Boudewijn De Groot",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "681",
+        "title": "Seasons",
+        "artist": "Earth & Fire",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "682",
+        "title": "Appleknockers Flophouse",
+        "artist": "Cuby & The Blizzards",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "683",
+        "title": "I'm On Fire",
+        "artist": "Bruce Springsteen",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "684",
+        "title": "I Close My Eyes And Count To Ten",
+        "artist": "Dusty Springfield",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "685",
+        "title": "Zondagmiddag Buitenveldert",
+        "artist": "Frans Halsema",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "686",
+        "title": "Air",
+        "artist": "Ekseption",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "687",
+        "title": "One Day I'll Fly Away",
+        "artist": "Randy Crawford",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "688",
+        "title": "His Latest Flame",
+        "artist": "Elvis Presley",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "689",
+        "title": "Tonight",
+        "artist": "Tina Turner & David Bowie",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "690",
+        "title": "Ain't Got No, I Got Life (hitversie)",
+        "artist": "Nina Simone",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "691",
+        "title": "Dancing In The Dark",
+        "artist": "Bruce Springsteen",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "692",
+        "title": "She's Leaving Home",
+        "artist": "Beatles",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "693",
+        "title": "Huilen Is Voor Jou Te Laat",
+        "artist": "Corry & De Rekels",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "694",
+        "title": "Solitary Man",
+        "artist": "Neil Diamond",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "695",
+        "title": "The Times They Are A-Changin'",
+        "artist": "Bob Dylan",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "696",
+        "title": "I'm A Believer",
+        "artist": "Monkees",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "697",
+        "title": "Dat Ik Je Mis",
+        "artist": "Maaike Ouboter",
+        "year": "2013"
+    },
+    {
+        "edition": "2020",
+        "id": "698",
+        "title": "Summer Of '69",
+        "artist": "Bryan Adams",
+        "year": "1990"
+    },
+    {
+        "edition": "2020",
+        "id": "699",
+        "title": "Daar Gaat Ze",
+        "artist": "Clouseau",
+        "year": "1990"
+    },
+    {
+        "edition": "2020",
+        "id": "700",
+        "title": "Zwei Kleine Italiener",
+        "artist": "Connie Froboess",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "701",
+        "title": "Mr Bojangles",
+        "artist": "Sammy Davis Jr",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "702",
+        "title": "All Along The Watchtower",
+        "artist": "Jimi Hendrix",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "703",
+        "title": "Hey Joe",
+        "artist": "Jimi Hendrix Experience",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "704",
+        "title": "Walking Back To Happiness",
+        "artist": "Helen Shapiro",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "705",
+        "title": "Thank God I'm A Country Boy",
+        "artist": "John Denver",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "706",
+        "title": "Leningrad",
+        "artist": "Billy Joel",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "707",
+        "title": "Kl 204 (Als Ik God Was)",
+        "artist": "Peter Koelewijn",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "708",
+        "title": "Somethin' Stupid",
+        "artist": "Nancy Sinatra & Frank Sinatra",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "709",
+        "title": "You Don't Bring Me Flowers",
+        "artist": "Barbara Streisand & Neil Dia...",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "710",
+        "title": "When The Girl In Your Arms Is The Girl In Your Heart",
+        "artist": "Cliff Richard",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "711",
+        "title": "Till I Kissed You",
+        "artist": "Everly Brothers",
+        "year": "1959"
+    },
+    {
+        "edition": "2020",
+        "id": "712",
+        "title": "La Ballade Des Gens Heureux",
+        "artist": "Gerard Lenorman",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "713",
+        "title": "Kees",
+        "artist": "Frans Halsema",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "714",
+        "title": "She",
+        "artist": "Elvis Costello",
+        "year": "1999"
+    },
+    {
+        "edition": "2020",
+        "id": "715",
+        "title": "The End (albumversie)",
+        "artist": "Doors",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "716",
+        "title": "Follow You Follow Me",
+        "artist": "Genesis",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "717",
+        "title": "What's Going On",
+        "artist": "Marvin Gaye",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "718",
+        "title": "My Lady Of Spain",
+        "artist": "Classics",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "719",
+        "title": "Quiereme Mucho",
+        "artist": "Julio Iglesias",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "720",
+        "title": "Nothing Compares 2 U",
+        "artist": "Sinead O'Connor",
+        "year": "1990"
+    },
+    {
+        "edition": "2020",
+        "id": "721",
+        "title": "24 Hours From Tulsa",
+        "artist": "Gene Pitney",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "722",
+        "title": "I Can't Stop Loving You",
+        "artist": "Ray Charles",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "723",
+        "title": "Nescio",
+        "artist": "Nits",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "724",
+        "title": "Three Steps To Heaven",
+        "artist": "Eddie Cochran",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "725",
+        "title": "Heart Of Stone",
+        "artist": "Rolling Stones",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "726",
+        "title": "Only Love",
+        "artist": "Nana Mouskouri",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "727",
+        "title": "Lay All Your Love On Me",
+        "artist": "ABBA",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "728",
+        "title": "Iedereen Is Van De Wereld",
+        "artist": "The Scene",
+        "year": "1992"
+    },
+    {
+        "edition": "2020",
+        "id": "729",
+        "title": "The Way We Were",
+        "artist": "Barbra Streisand",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "730",
+        "title": "Rave On",
+        "artist": "Buddy Holly",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "731",
+        "title": "True Love That's A Wonder",
+        "artist": "Sandy Coast",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "732",
+        "title": "Anne",
+        "artist": "Herman Van Veen",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "733",
+        "title": "I'll Find My Way Home",
+        "artist": "Jon & Vangelis",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "734",
+        "title": "Can't Get It Out Of My Head",
+        "artist": "Electric Light Orchestra",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "735",
+        "title": "Por Un Poco De Tu Amor",
+        "artist": "Julio Iglesias",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "736",
+        "title": "Another Day In Paradise",
+        "artist": "Phil Collins",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "737",
+        "title": "Here Comes The Night",
+        "artist": "Them",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "738",
+        "title": "Ich Bau' Dir Ein Schloss",
+        "artist": "Heintje",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "739",
+        "title": "Knowing Me, Knowing You",
+        "artist": "ABBA",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "740",
+        "title": "Mama",
+        "artist": "Genesis",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "741",
+        "title": "Tin Soldier",
+        "artist": "Small Faces",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "742",
+        "title": "La Diligence",
+        "artist": "Cats",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "743",
+        "title": "Driving Home For Christmas",
+        "artist": "Chris Rea",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "744",
+        "title": "Don't Stop",
+        "artist": "Fleetwood Mac",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "745",
+        "title": "Fly Away Little Paraguayo",
+        "artist": "George Baker Selection",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "746",
+        "title": "A Steel Guitar And A Glass Of Wine",
+        "artist": "Paul Anka",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "747",
+        "title": "Red Sails In The Sunset",
+        "artist": "Fats Domino",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "748",
+        "title": "Listen To The Ocean",
+        "artist": "Nina & Frederik",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "749",
+        "title": "Poup\u00e9e De Cire, Poup\u00e9e De Son",
+        "artist": "France Gall",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "750",
+        "title": "Spring Summer Winter And Fall",
+        "artist": "Aphrodite's Child",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "751",
+        "title": "Tell Laura I Love Her",
+        "artist": "Albert West",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "752",
+        "title": "Maggie May",
+        "artist": "Rod Stewart",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "753",
+        "title": "Wind Beneath My Wings",
+        "artist": "Bette Midler",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "754",
+        "title": "Before The Next Teardrop Falls",
+        "artist": "Freddy Fender",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "755",
+        "title": "The Legend Of Xanadu",
+        "artist": "Dave Dee Dozy Beaky Mick ...",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "756",
+        "title": "Return To Me",
+        "artist": "Dean Martin",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "757",
+        "title": "Fox On The Run",
+        "artist": "Sweet",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "758",
+        "title": "La Mer",
+        "artist": "Charles Trenet",
+        "year": "1946"
+    },
+    {
+        "edition": "2020",
+        "id": "759",
+        "title": "De Verzoening",
+        "artist": "Frank Boeijen",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "760",
+        "title": "Tusk",
+        "artist": "Fleetwood Mac",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "761",
+        "title": "That's Amore",
+        "artist": "Dean Martin",
+        "year": "1953"
+    },
+    {
+        "edition": "2020",
+        "id": "762",
+        "title": "Orinoco Flow",
+        "artist": "Enya",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "763",
+        "title": "Folsom Prison Blues (live)",
+        "artist": "Johnny Cash",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "764",
+        "title": "Twilight Zone",
+        "artist": "Golden Earring",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "765",
+        "title": "99 Luftballons",
+        "artist": "Nena",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "766",
+        "title": "Everybody Loves Somebody",
+        "artist": "Dean Martin",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "767",
+        "title": "Blowin' In The Wind",
+        "artist": "Hollies",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "768",
+        "title": "Denis",
+        "artist": "Blondie",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "769",
+        "title": "What A Crazy Life",
+        "artist": "Cats",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "770",
+        "title": "Solsbury Hill",
+        "artist": "Peter Gabriel",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "771",
+        "title": "Losing My Religion",
+        "artist": "R.E.M.",
+        "year": "1991"
+    },
+    {
+        "edition": "2020",
+        "id": "772",
+        "title": "Only Lies",
+        "artist": "Greenfield & Cook",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "773",
+        "title": "Late Again",
+        "artist": "Stealers Wheel",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "774",
+        "title": "Radio Ga Ga",
+        "artist": "Queen",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "775",
+        "title": "She Flies On Strange Wings",
+        "artist": "Golden Earring",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "776",
+        "title": "Return To Sender",
+        "artist": "Elvis Presley",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "777",
+        "title": "Now",
+        "artist": "Dave Berry",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "778",
+        "title": "Don't Waste Your Time",
+        "artist": "Cats",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "779",
+        "title": "The Weight",
+        "artist": "The Band",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "780",
+        "title": "The Living Years",
+        "artist": "Mike & The Mechanics",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "781",
+        "title": "Onderweg",
+        "artist": "Abel",
+        "year": "2000"
+    },
+    {
+        "edition": "2020",
+        "id": "782",
+        "title": "Summertime",
+        "artist": "Louis Armstrong & Ella Fitzg...",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "783",
+        "title": "Lodi",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "784",
+        "title": "Listen To The Music",
+        "artist": "Doobie Brothers",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "785",
+        "title": "Bachelor Boy",
+        "artist": "Cliff Richard",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "786",
+        "title": "Ik Kan Het Niet Alleen",
+        "artist": "De Dijk",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "787",
+        "title": "Fantasy",
+        "artist": "Earth Wind & Fire",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "788",
+        "title": "Amour Perdu",
+        "artist": "Adamo",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "789",
+        "title": "And I Love Her",
+        "artist": "Beatles",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "790",
+        "title": "La Paloma",
+        "artist": "Freddy Quinn",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "791",
+        "title": "Ferry 'Cross The Mersey",
+        "artist": "Gerry & The Pacemakers",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "792",
+        "title": "Donna",
+        "artist": "Ritchie Valens",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "793",
+        "title": "I'll Never Fall In Love Again",
+        "artist": "Tom Jones",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "794",
+        "title": "To Make My Life Beautiful",
+        "artist": "Alex Harvey",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "795",
+        "title": "Lay Down",
+        "artist": "Melanie & The Edwin Hawkin...",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "796",
+        "title": "Kiss Me Quick",
+        "artist": "Elvis Presley",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "797",
+        "title": "Something's Gotten Hold Of My Heart",
+        "artist": "Gene Pitney",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "798",
+        "title": "It's The End",
+        "artist": "Buffoons",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "799",
+        "title": "Living Doll",
+        "artist": "Cliff Richard & The Young O...",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "800",
+        "title": "Son Of A Preacher Man",
+        "artist": "Dusty Springfield",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "801",
+        "title": "Sunday Bloody Sunday",
+        "artist": "U2",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "802",
+        "title": "Peaceful Easy Feeling",
+        "artist": "Eagles",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "803",
+        "title": "De Neus Umhoeg",
+        "artist": "Rowwen Heze",
+        "year": "1995"
+    },
+    {
+        "edition": "2020",
+        "id": "804",
+        "title": "Bus Stop",
+        "artist": "Hollies",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "805",
+        "title": "What's A Woman",
+        "artist": "Vaya Con Dios",
+        "year": "1990"
+    },
+    {
+        "edition": "2020",
+        "id": "806",
+        "title": "Lonely Boy",
+        "artist": "Paul Anka",
+        "year": "1959"
+    },
+    {
+        "edition": "2020",
+        "id": "807",
+        "title": "Starman",
+        "artist": "David Bowie",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "808",
+        "title": "Whisky In The Jar",
+        "artist": "Thin Lizzy",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "809",
+        "title": "Mercedes Benz",
+        "artist": "Janis Joplin",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "810",
+        "title": "Wake Up Little Susie",
+        "artist": "Everly Brothers",
+        "year": "1958"
+    },
+    {
+        "edition": "2020",
+        "id": "811",
+        "title": "Sajang E",
+        "artist": "Massada",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "812",
+        "title": "Make Me Smile (Come Up And See Me)",
+        "artist": "Steve Harley & Cockney Rebel",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "813",
+        "title": "Those Were The Days",
+        "artist": "Mary Hopkin",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "814",
+        "title": "Back Home Again",
+        "artist": "John Denver",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "815",
+        "title": "Never Marry A Railroad Man",
+        "artist": "Shocking Blue",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "816",
+        "title": "Down On The Corner",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "817",
+        "title": "Set Fire To The Rain",
+        "artist": "Adele",
+        "year": "2011"
+    },
+    {
+        "edition": "2020",
+        "id": "818",
+        "title": "Het Regent Zonnestralen",
+        "artist": "Acda & De Munnik",
+        "year": "1999"
+    },
+    {
+        "edition": "2020",
+        "id": "819",
+        "title": "Le M\u00e9t\u00e8que",
+        "artist": "Georges Moustaki",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "820",
+        "title": "He Kom Aan",
+        "artist": "Dimitri Van Toren",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "821",
+        "title": "Cracklin' Rosie",
+        "artist": "Neil Diamond",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "822",
+        "title": "Dodenrit",
+        "artist": "Drs. P",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "823",
+        "title": "O, O, Den Haag",
+        "artist": "Harry Klorkestein",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "824",
+        "title": "Rose Garden",
+        "artist": "Lynn Anderson",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "825",
+        "title": "Don't You Forget About Me",
+        "artist": "Simple Minds",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "826",
+        "title": "I Can Hear Music",
+        "artist": "Beach Boys",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "827",
+        "title": "New World In The Morning",
+        "artist": "Roger Whittaker",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "828",
+        "title": "You've Got A Friend",
+        "artist": "James Taylor",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "829",
+        "title": "Weekend",
+        "artist": "Earth & Fire",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "830",
+        "title": "Together Again",
+        "artist": "Emmylou Harris",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "831",
+        "title": "Fly Me To The Moon",
+        "artist": "Frank Sinatra",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "832",
+        "title": "My Back Pages",
+        "artist": "Byrds",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "833",
+        "title": "Toe Maar Jongens",
+        "artist": "Robert Long",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "834",
+        "title": "S.O.S.",
+        "artist": "ABBA",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "835",
+        "title": "Ik Hou Van Mij",
+        "artist": "Harrie Jekkers",
+        "year": "1997"
+    },
+    {
+        "edition": "2020",
+        "id": "836",
+        "title": "Waarom Heb Jij Me Laten Staan",
+        "artist": "Heikrekels",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "837",
+        "title": "Theme From 'Harry's Game'",
+        "artist": "Clannad",
+        "year": "1983"
+    },
+    {
+        "edition": "2020",
+        "id": "838",
+        "title": "Matrimony",
+        "artist": "Gilbert O\u00b4Sullivan",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "839",
+        "title": "Tomorrow Is Another Day",
+        "artist": "Buffoons",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "840",
+        "title": "Heal The World",
+        "artist": "Michael Jackson",
+        "year": "1992"
+    },
+    {
+        "edition": "2020",
+        "id": "841",
+        "title": "Ik Doe Wat Ik Doe",
+        "artist": "Astrid Nijgh",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "842",
+        "title": "Mother How Are You Today",
+        "artist": "Maywood",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "843",
+        "title": "Under Pressure",
+        "artist": "Queen & David Bowie",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "844",
+        "title": "Put Your Head On My Shoulder",
+        "artist": "Paul Anka",
+        "year": "1959"
+    },
+    {
+        "edition": "2020",
+        "id": "845",
+        "title": "Alles Geprobeerd",
+        "artist": "Goede Doel",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "846",
+        "title": "The Day That Curly Billy Shot Down Crazy Sam McGee",
+        "artist": "Hollies",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "847",
+        "title": "Een Beetje Verliefd",
+        "artist": "Andr\u00e9 Hazes",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "848",
+        "title": "He'll Have To Go",
+        "artist": "Ry Cooder",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "849",
+        "title": "The Opera",
+        "artist": "Dizzy Man's Band",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "850",
+        "title": "Jambalaya (On The Bayou)",
+        "artist": "Carpenters",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "851",
+        "title": "Lucky Man",
+        "artist": "Emerson Lake & Palmer",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "852",
+        "title": "Don't Cry For Me Argentina",
+        "artist": "Julie Covington",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "853",
+        "title": "Evergreen (Theme From A Star Is Born)",
+        "artist": "Barbra Streisand",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "854",
+        "title": "Born In The USA",
+        "artist": "Bruce Springsteen",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "855",
+        "title": "Een Lied Voor Kinderen",
+        "artist": "Dimitri Van Toren",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "856",
+        "title": "Oh Boy",
+        "artist": "Buddy Holly",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "857",
+        "title": "Kingston Town",
+        "artist": "UB40",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "858",
+        "title": "Margherita",
+        "artist": "Marco Borsato",
+        "year": "1996"
+    },
+    {
+        "edition": "2020",
+        "id": "859",
+        "title": "Everybody's Somebody's Fool",
+        "artist": "Connie Francis",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "860",
+        "title": "Take It To The Limit",
+        "artist": "Eagles",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "861",
+        "title": "For Me Formidable",
+        "artist": "Charles Aznavour",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "862",
+        "title": "(You\u00b4re The) Devil In Disguise",
+        "artist": "Elvis Presley",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "863",
+        "title": "I Saw Her Standing There",
+        "artist": "Beatles",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "864",
+        "title": "L'Important C'est La Rose",
+        "artist": "Gilbert Becaud",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "865",
+        "title": "Sophietje",
+        "artist": "Johnny Lion",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "866",
+        "title": "All Kinds Of Everything",
+        "artist": "Dana",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "867",
+        "title": "The Eve Of The War",
+        "artist": "Jeff Wayne",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "868",
+        "title": "Here It Comes Again",
+        "artist": "Fortunes",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "869",
+        "title": "These Boots Are Made For Walking",
+        "artist": "Nancy Sinatra",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "870",
+        "title": "You're My Best Friend",
+        "artist": "Queen",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "871",
+        "title": "Brown Sugar",
+        "artist": "Rolling Stones",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "872",
+        "title": "Day O (Banana Boat Song)",
+        "artist": "Harry Belafonte",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "873",
+        "title": "Rhiannon (Will You Ever Win)",
+        "artist": "Fleetwood Mac",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "874",
+        "title": "From The Underworld",
+        "artist": "The Herd",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "875",
+        "title": "For No One",
+        "artist": "Beatles",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "876",
+        "title": "You Took The Words Right Out Of My Mouth",
+        "artist": "Meat Loaf",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "877",
+        "title": "If I Had A Hammer",
+        "artist": "Trini Lopez",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "878",
+        "title": "She's Always A Woman",
+        "artist": "Billy Joel",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "879",
+        "title": "Don't Cry Daddy",
+        "artist": "Elvis Presley",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "880",
+        "title": "Sjakie Van De Hoek",
+        "artist": "Conny Vandenbos",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "881",
+        "title": "I'm Sorry",
+        "artist": "Brenda Lee",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "882",
+        "title": "Noordzee",
+        "artist": "Boudewijn De Groot",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "883",
+        "title": "Love Hurts",
+        "artist": "Everly Brothers",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "884",
+        "title": "Weisse Rosen Aus Athen",
+        "artist": "Nana Mouskouri",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "885",
+        "title": "We Are The Champions",
+        "artist": "Queen",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "886",
+        "title": "Shaffy Cantate",
+        "artist": "Ramses Shaffy & Liesbeth List",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "887",
+        "title": "Suicide Is Painless",
+        "artist": "Mash",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "888",
+        "title": "Long Cool Woman (In A Black Dress)",
+        "artist": "Hollies",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "889",
+        "title": "My Generation",
+        "artist": "The Who",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "890",
+        "title": "Heimweh",
+        "artist": "Freddy Quinn",
+        "year": "1956"
+    },
+    {
+        "edition": "2020",
+        "id": "891",
+        "title": "In The Mood",
+        "artist": "Glenn Miller",
+        "year": "1940"
+    },
+    {
+        "edition": "2020",
+        "id": "892",
+        "title": "Pak Maar M'n Hand",
+        "artist": "Nick & Simon",
+        "year": "2007"
+    },
+    {
+        "edition": "2020",
+        "id": "893",
+        "title": "Roundabout",
+        "artist": "Yes",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "894",
+        "title": "Goin' Back",
+        "artist": "Dusty Springfield",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "895",
+        "title": "Bernadine",
+        "artist": "Pat Boone",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "896",
+        "title": "Samen Zijn",
+        "artist": "Willeke Alberti",
+        "year": "1987"
+    },
+    {
+        "edition": "2020",
+        "id": "897",
+        "title": "Love You More",
+        "artist": "Racoon",
+        "year": "2005"
+    },
+    {
+        "edition": "2020",
+        "id": "898",
+        "title": "Het Oude Huis",
+        "artist": "Willeke Alberti",
+        "year": "1980"
+    },
+    {
+        "edition": "2020",
+        "id": "899",
+        "title": "Mien",
+        "artist": "Robert Long",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "900",
+        "title": "Rocky Mountain High",
+        "artist": "John Denver",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "901",
+        "title": "Auto Vliegtuug",
+        "artist": "Rowwen Heze",
+        "year": "1999"
+    },
+    {
+        "edition": "2020",
+        "id": "902",
+        "title": "Kayleigh",
+        "artist": "Marillion",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "903",
+        "title": "Lana",
+        "artist": "Roy Orbison",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "904",
+        "title": "Money",
+        "artist": "Pink Floyd",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "905",
+        "title": "Give A Little Bit",
+        "artist": "Supertramp",
+        "year": "1977"
+    },
+    {
+        "edition": "2020",
+        "id": "906",
+        "title": "Englishman In New York",
+        "artist": "Sting",
+        "year": "1988"
+    },
+    {
+        "edition": "2020",
+        "id": "907",
+        "title": "She's Not There",
+        "artist": "Santana",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "908",
+        "title": "25 Or 6 To 4",
+        "artist": "Chicago",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "909",
+        "title": "The Guitar Man",
+        "artist": "Bread",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "910",
+        "title": "I Don't Want To Talk About It",
+        "artist": "Rod Stewart",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "911",
+        "title": "Layla (Unplugged)",
+        "artist": "Eric Clapton",
+        "year": "1992"
+    },
+    {
+        "edition": "2020",
+        "id": "912",
+        "title": "Zeg Maar Niets Meer",
+        "artist": "Andr\u00e9 Hazes",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "913",
+        "title": "Strangers In The Night",
+        "artist": "Frank Sinatra",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "914",
+        "title": "Sgt. Pepper's Lonely Hearts Club Band",
+        "artist": "Beatles",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "915",
+        "title": "Kon-Tiki",
+        "artist": "Shadows",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "916",
+        "title": "There Goes My Heart Again",
+        "artist": "Fats Domino",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "917",
+        "title": "Musica E",
+        "artist": "Eros Ramazzotti",
+        "year": "1989"
+    },
+    {
+        "edition": "2020",
+        "id": "918",
+        "title": "You",
+        "artist": "Ten Sharp",
+        "year": "1991"
+    },
+    {
+        "edition": "2020",
+        "id": "919",
+        "title": "People",
+        "artist": "Barbra Streisand",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "920",
+        "title": "C'est Ma Vie",
+        "artist": "Adamo",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "921",
+        "title": "You're So Vain",
+        "artist": "Carly Simon",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "922",
+        "title": "Tes Tendres Ann\u00e9es",
+        "artist": "Johnny Hallyday",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "923",
+        "title": "Runaway",
+        "artist": "Del Shannon",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "924",
+        "title": "We Can Work It Out",
+        "artist": "Beatles",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "925",
+        "title": "The Final Countdown",
+        "artist": "Europe",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "926",
+        "title": "Jan Klaassen de Trompetter",
+        "artist": "Rob de Nijs",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "927",
+        "title": "Only A Fool",
+        "artist": "Mighty Sparrow & Byron Lee",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "928",
+        "title": "Against All Odds",
+        "artist": "Phil Collins",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "929",
+        "title": "I've Gotta Get A Message To You",
+        "artist": "Bee Gees",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "930",
+        "title": "Hocus Pocus",
+        "artist": "Focus",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "931",
+        "title": "Paradiso",
+        "artist": "Anneke Gronloh",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "932",
+        "title": "Killing Me Softly With His Song",
+        "artist": "Roberta Flack",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "933",
+        "title": "Vriendschap",
+        "artist": "Het Goede Doel",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "934",
+        "title": "The Ballad Of Lucy Jordan",
+        "artist": "Marianne Faithfull",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "935",
+        "title": "Als De Rook Om Je Hoofd Is Verdwenen",
+        "artist": "Boudewijn De Groot",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "936",
+        "title": "Deurdonderen",
+        "artist": "Normaal",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "937",
+        "title": "Dream A Little Dream Of Me",
+        "artist": "Mama Cass",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "938",
+        "title": "Don't Stop Me Now",
+        "artist": "Queen",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "939",
+        "title": "Here, There And Everywhere",
+        "artist": "Beatles",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "940",
+        "title": "Cotton Fields",
+        "artist": "Creedence Clearwater Revival",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "941",
+        "title": "Diamonds On The Soles Of Her Shoes",
+        "artist": "Paul Simon",
+        "year": "1986"
+    },
+    {
+        "edition": "2020",
+        "id": "942",
+        "title": "Get Back",
+        "artist": "Beatles",
+        "year": "1969"
+    },
+    {
+        "edition": "2020",
+        "id": "943",
+        "title": "Fly Away",
+        "artist": "John Denver",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "944",
+        "title": "Sinds 1 Dag Of 2 (32 Jaar)",
+        "artist": "Doe Maar",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "945",
+        "title": "Warum Nur, Warum",
+        "artist": "Udo Jurgens",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "946",
+        "title": "Lady McCorey",
+        "artist": "BZN",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "947",
+        "title": "That'll Be The Day",
+        "artist": "Buddy Holly",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "948",
+        "title": "De Noorderzon Scheen",
+        "artist": "Conny Vandenbos",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "949",
+        "title": "The Wind Cries Mary",
+        "artist": "Jimi Hendrix",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "950",
+        "title": "Soldiers Who Want To Be Heroes",
+        "artist": "Rod McKuen",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "951",
+        "title": "If You Know What I Mean",
+        "artist": "Neil Diamond",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "952",
+        "title": "April Love",
+        "artist": "Pat Boone",
+        "year": "1957"
+    },
+    {
+        "edition": "2020",
+        "id": "953",
+        "title": "Hello",
+        "artist": "Lionel Richie",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "954",
+        "title": "Respect",
+        "artist": "Aretha Franklin",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "955",
+        "title": "Hair",
+        "artist": "Zen",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "956",
+        "title": "Tiger Feet",
+        "artist": "Mud",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "957",
+        "title": "Zet Een Kaars Voor Je Raam",
+        "artist": "Rob de Nijs",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "958",
+        "title": "Longfellow Serenade",
+        "artist": "Neil Diamond",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "959",
+        "title": "F.B.I",
+        "artist": "Shadows",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "960",
+        "title": "Aan De Amsterdamse Grachten",
+        "artist": "Wim Sonneveld",
+        "year": "1960"
+    },
+    {
+        "edition": "2020",
+        "id": "961",
+        "title": "Mamma Mia",
+        "artist": "ABBA",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "962",
+        "title": "Hilversum 3",
+        "artist": "Herman Van Veen",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "963",
+        "title": "How You Gonna See Me Now",
+        "artist": "Alice Cooper",
+        "year": "1979"
+    },
+    {
+        "edition": "2020",
+        "id": "964",
+        "title": "They Don't Play Our Lovesong Anymore",
+        "artist": "Anita Meyer",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "965",
+        "title": "The Pied Piper",
+        "artist": "Chrispian St. Peters",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "966",
+        "title": "Le Lac Majeur",
+        "artist": "Mort Shuman",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "967",
+        "title": "Reflections Of My Life",
+        "artist": "Marmalade",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "968",
+        "title": "Badlands",
+        "artist": "Bruce Springsteen",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "969",
+        "title": "The End Of The World",
+        "artist": "Skeeter Davis",
+        "year": "1963"
+    },
+    {
+        "edition": "2020",
+        "id": "970",
+        "title": "1948",
+        "artist": "Gerard Cox",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "971",
+        "title": "Aan De Kust",
+        "artist": "Blof",
+        "year": "1999"
+    },
+    {
+        "edition": "2020",
+        "id": "972",
+        "title": "Ein Bisschen Frieden",
+        "artist": "Nicole",
+        "year": "1982"
+    },
+    {
+        "edition": "2020",
+        "id": "973",
+        "title": "Lonely Days",
+        "artist": "Bee Gees",
+        "year": "1970"
+    },
+    {
+        "edition": "2020",
+        "id": "974",
+        "title": "All My Love",
+        "artist": "Cliff Richard",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "975",
+        "title": "Holding Back The Years",
+        "artist": "Simply Red",
+        "year": "1985"
+    },
+    {
+        "edition": "2020",
+        "id": "976",
+        "title": "Saturday Night",
+        "artist": "Herman Brood & His Wild Ro...",
+        "year": "1978"
+    },
+    {
+        "edition": "2020",
+        "id": "977",
+        "title": "Burning Love",
+        "artist": "Elvis Presley",
+        "year": "1972"
+    },
+    {
+        "edition": "2020",
+        "id": "978",
+        "title": "I Got You Babe",
+        "artist": "Sonny & Cher",
+        "year": "1965"
+    },
+    {
+        "edition": "2020",
+        "id": "979",
+        "title": "Don't Let The Sun Go Down On Me",
+        "artist": "George Michael & Elton John",
+        "year": "1992"
+    },
+    {
+        "edition": "2020",
+        "id": "980",
+        "title": "Le Printemps",
+        "artist": "Michel Fugain & Le Big Bazar",
+        "year": "1976"
+    },
+    {
+        "edition": "2020",
+        "id": "981",
+        "title": "Moon River",
+        "artist": "Andy Williams",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "982",
+        "title": "Mandy",
+        "artist": "Barry Manilow",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "983",
+        "title": "From The Time You Say Goodbye",
+        "artist": "Vera Lynn",
+        "year": "1952"
+    },
+    {
+        "edition": "2020",
+        "id": "984",
+        "title": "Another Day, Another Road",
+        "artist": "Cuby & The Blizzards",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "985",
+        "title": "Rhinestone Cowboy",
+        "artist": "Glen Campbell",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "986",
+        "title": "Dreamer",
+        "artist": "Supertramp",
+        "year": "1974"
+    },
+    {
+        "edition": "2020",
+        "id": "987",
+        "title": "Ain't No Sunshine",
+        "artist": "Bill Withers",
+        "year": "1971"
+    },
+    {
+        "edition": "2020",
+        "id": "988",
+        "title": "Little Man",
+        "artist": "Sonny & Cher",
+        "year": "1966"
+    },
+    {
+        "edition": "2020",
+        "id": "989",
+        "title": "Stand By Me",
+        "artist": "Ben E. King",
+        "year": "1961"
+    },
+    {
+        "edition": "2020",
+        "id": "990",
+        "title": "Na Na Na",
+        "artist": "Shoes",
+        "year": "1967"
+    },
+    {
+        "edition": "2020",
+        "id": "991",
+        "title": "Afrikaan Beat",
+        "artist": "Bert Kaempfert",
+        "year": "1962"
+    },
+    {
+        "edition": "2020",
+        "id": "992",
+        "title": "Still Loving You",
+        "artist": "Scorpions",
+        "year": "1984"
+    },
+    {
+        "edition": "2020",
+        "id": "993",
+        "title": "Op Fietse",
+        "artist": "Skik",
+        "year": "1997"
+    },
+    {
+        "edition": "2020",
+        "id": "994",
+        "title": "Als De Morgen Is Gekomen",
+        "artist": "Jan Smit",
+        "year": "2006"
+    },
+    {
+        "edition": "2020",
+        "id": "995",
+        "title": "Wij Zullen Doorgaan",
+        "artist": "Ramses Shaffy",
+        "year": "1975"
+    },
+    {
+        "edition": "2020",
+        "id": "996",
+        "title": "Black Pearl",
+        "artist": "Margriet Eshuijs",
+        "year": "1981"
+    },
+    {
+        "edition": "2020",
+        "id": "997",
+        "title": "La Chanson Des Vieux Amants",
+        "artist": "Jacques Brel",
+        "year": "1968"
+    },
+    {
+        "edition": "2020",
+        "id": "998",
+        "title": "Maria No Mas",
+        "artist": "Cliff Richard",
+        "year": "1964"
+    },
+    {
+        "edition": "2020",
+        "id": "999",
+        "title": "I'm Just A Singer (In A Rock And Roll Band)",
+        "artist": "Moody Blues",
+        "year": "1973"
+    },
+    {
+        "edition": "2020",
+        "id": "1000",
+        "title": "Walk Right Back",
+        "artist": "Everly Brothers",
+        "year": "1961"
+    }
+]

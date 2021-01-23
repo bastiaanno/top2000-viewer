@@ -1,83 +1,88 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="nl-nl">
+
+<head>
     <title>Top 2000-viewer</title>
     <link rel="stylesheet" type="text/css" href="layout.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="main-view">
-      <div id="top2000-id-container">
-        <div id="top2000-id-square-shadow-2"></div>
-        <div id="top2000-id-square-shadow-1"></div>
-        <div id="top2000-id-square"></div>
-        <div id="top2000-id"></div>
-      </div>
-      <div id="current-song-container">
-        <div>
-          <span id="current-song-title"></span><span id="current-song-votes"></span>
+        <div id="top2000-id-container">
+            <div id="top2000-id-square-shadow-2"></div>
+            <div id="top2000-id-square-shadow-1"></div>
+            <div id="top2000-id-square"></div>
+            <div id="top2000-id"></div>
         </div>
-        <div>
-          <span id="current-song-artist"></span>
+        <div id="current-song-container">
+            <div>
+                <span id="current-song-title"></span><span id="current-song-votes"></span>
+            </div>
+            <div>
+                <span id="current-song-artist"></span>
+            </div>
+            <div id="progress-bar">
+                <div id="progress-bar-fill">
+                </div>
+                <div id="progress-bar-knob">
+                </div>
+            </div>
+            <div id="current-song-extra-info">
+                <p><span id="current-song-year"></span><span id="current-song-difference"></span></p>
+            </div>
         </div>
-        <div id="progress-bar">
-          <div id="progress-bar-fill">
-          </div>
-          <div id="progress-bar-knob">
-          </div>
+        <div id="previous-id">
         </div>
-        <div id="current-song-extra-info">
-          <p><span id="current-song-year"></span><span id="current-song-difference"></span></p>
+        <div id="previous-song-container">
+            <div>
+                <span id="previous-song-title"></span><span id="previous-song-votes"></span>
+            </div>
+            <div>
+                <span id="previous-song-artist"></span>
+            </div>
         </div>
-      </div>
-      <div id="previous-id">
-      </div>
-      <div id="previous-song-container">
-        <div>
-          <span id="previous-song-title"></span><span id="previous-song-votes"></span>
+        <div id="next-id">
         </div>
-        <div>
-          <span id="previous-song-artist"></span>
+        <div id="next-song-container">
+            <div>
+                <span id="next-song-title"></span><span id="next-song-votes"></span>
+            </div>
+            <div>
+                <span id="next-song-artist"></span>
+            </div>
         </div>
-      </div>
-      <div id="next-id">
-      </div>
-      <div id="next-song-container">
-        <div>
-          <span id="next-song-title"></span><span id="next-song-votes"></span>
+        <div id="hour-overview" class="overlay">
+            <div id="hour-overview-header">
+                Uur ...
+            </div>
+            <div id="hour-overview-body">
+                ...
+            </div>
         </div>
-        <div>
-          <span id="next-song-artist"></span>
+        <div id="clock" class="overlay">
+            <img id="clock-image" src="timezones/0.png">
+            </img>
+            <div id="clock-timer">
+                23:59:59
+            </div>
         </div>
-      </div>
-      <div id="hour-overview" class="overlay">
-        <div id="hour-overview-header">
-          Uur ...
+        <div id="huge-id-container">
+            <div id="huge-id-square-container">
+                <div id="huge-id-square-shadow-2"></div>
+                <div id="huge-id-square-shadow-1"></div>
+                <div id="huge-id-square"></div>
+                <div id="huge-id"></div>
+            </div>
         </div>
-        <div id="hour-overview-body">
-          ...
+        <div id="notification">
         </div>
-      </div>
-      <div id="clock" class="overlay">
-        <img id="clock-image" src="timezones/0.png">
-        </img>
-        <div id="clock-timer">
-          23:59:59
+        <div id="topright">
         </div>
-      </div>
-      <div id="huge-id-container">
-        <div id="huge-id-square-container">
-          <div id="huge-id-square-shadow-2"></div>
-          <div id="huge-id-square-shadow-1"></div>
-          <div id="huge-id-square"></div>
-          <div id="huge-id"></div>
-        </div>
-      </div>
-      <div id="notification">
-      </div>
     </div>
-    
-    <script src="//cdn.socket.io/socket.io-1.2.0.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.js"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//code.jquery.com/jquery-latest.js"></script>
     <script src="client.js"></script>
-  </body>
+</body>
+
 </html>
