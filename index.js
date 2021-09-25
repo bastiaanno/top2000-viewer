@@ -3,17 +3,18 @@ var fs = require('fs');
 
 var express = require('express');
 var app = express();
-var certs = {
-    key: fs.readFileSync('Top2000-key.pem'),
-    cert: fs.readFileSync('Top2000.pem'),
-    ca: fs.readFileSync('Top2000-chain.pem')
-};
-var https = require('https').Server(certs, app);
-var io = require('socket.io')(https);
+// var certs = {
+//     key: fs.readFileSync('Top2000-key.pem'),
+//     cert: fs.readFileSync('Top2000.pem'),
+//     ca: fs.readFileSync('Top2000-chain.pem')
+// };
+//var https = require('https').Server(certs, app);
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
 
 var schedule = require('node-schedule');
 
-var levenshtein = require('./levenshtein');
+const levenshtein = require('js-levenshtein');
 
 var twilio = require('twilio');
 const accountSid = 'ACCOUNT_SID';
@@ -100,14 +101,14 @@ app.use(express.static('public'))
 io.on('connection', function(socket) {
     var address = socket.handshake.address;
     console.log('a user connected');
-    console.log(socket.request.headers['user-agent']);
+    //console.log(socket.request.headers['user-agent']);
     socket.emit('new song', { currentSong: currentSong, previousSong: previousSong, nextSong: nextSong });
     if (config.testMode) {
         setTimeout(showHourOverview, 5000);
     }
 });
 
-https.listen(config.ports.https);
+http.listen(config.ports.http);
 
 getData();
 setInterval(getData, 1000);
@@ -208,9 +209,9 @@ function handleResponse(data) {
         d.setTime(d.getTime() - config.tz * 60 * 60 * 1000);
         var date = d.getDate();
         var hour = d.getHours();
-        console.log(date, hour);
+        console.log("Day " + date + " of month " + hour);
         if (config.testMode || ((d.getMonth() === 11) && (date >= 25)) || (config.evergreen && (d.getMonth() === 10 && ((date >= 23 && 27 >= date) && (hour >= 6 && hour <= 20))))) {
-            console.log("ok");
+            console.log("We are a go!");
             if (!config.testMode) {
                 if (findHour(date, hour) > 0) {
                     var hourStart = hours[findHour(date, hour)].start_id - 1;
@@ -231,8 +232,8 @@ function handleResponse(data) {
             var closestLevenshtein = 10000000;
 
             for (var i = searchFrom; i >= searchTo; i--) {
-                var l = levenshtein.getEditDistance(newArtist, songs[i - 1].artist);
-                l += levenshtein.getEditDistance(removeParentheses(newTitle), removeParentheses(songs[i - 1].title));
+                var l = levenshtein(newArtist, songs[i - 1].artist);
+                l += levenshtein(removeParentheses(newTitle), removeParentheses(songs[i - 1].title));
                 if (l < closestLevenshtein) {
                     closestMatch = i;
                     closestLevenshtein = l;
@@ -339,7 +340,7 @@ function showHourOverview() {
     }
 
     if (config.testMode || ((d.getMonth() === 11) && (date >= 25)) || (config.evergreen && (d.getMonth() === 10 && ((date >= 23 && 27 >= date) && (hour >= 6 && 20 >= hour))))) {
-        console.log("ok");
+        console.log("We are a go!");
         var songsInHour = [];
 
         var topHour = findHour(date, hour);
@@ -351,7 +352,7 @@ function showHourOverview() {
             song['id'] = i + 1;
             songsInHour.push(song);
         }
-        //console.log(songsInHour);
+        console.log("There are " + songsInHour.length + " songs this hour.");
 
         var presenter = presenterInHour(hour);
         io.emit('hour overview', { date: date, hour: hour, hourCount: getHourCount(date, hour), songs: songsInHour, presenter: presenter, hoursTotal: config.evergreen ? config.hours.evergreen : config.hours.top2000 });
