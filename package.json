@@ -1,9 +1,10 @@
 {
   "name": "top2000-viewer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A website to view the currently playing song in the Top 2000",
   "dependencies": {
     "express": "^4.10.2",
+    "js-levenshtein": "^1.1.6",
     "mocha": "^8.2.1",
     "node-schedule": "^0.6.0",
     "socket.io": "^2.3.0",
