@@ -2,7 +2,7 @@
 
   
 
-This is a website to show the currently playing song in the Top 2000. My instance is running at https://top2000.bastiaanno.nl.
+This is a website to show the currently playing song in the Top 2000. My instance is running at https://top2000.bwserv.nl.
 
   
 
