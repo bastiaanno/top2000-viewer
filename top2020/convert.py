@@ -7,15 +7,14 @@ with open('songs-unpruned.json') as f:
     songs = json.load(f)
 
 output = []
-for song in songs['data'][0]:
-    item = {'title': song['s'],
-            'artist': song['a'],
-            'year': song['yr'],
-            'id': song['pos'],
-            'previous': song['prv'],
-            'image_id': song['img'],
-            'info_url': song['url']}
+for song in songs['positions']:
+    item = {'title': song['title'],
+            'artist': song['artist'],
+            'id': song['position'],
+            'previous': song['lastPosition'],
+            'image_id': song['imageUrl']}
     output.append(item)
 
 with open('songs.json', 'w') as f:
     json.dump(output, f)
+
