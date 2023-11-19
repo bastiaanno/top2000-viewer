@@ -26,17 +26,22 @@ const authToken = "AUTH_TOKEN";
 const twilioClient = twilio(accountSid, authToken);
 
 var config = JSON.parse(fs.readFileSync("config.json"));
+var filePath;
 if (config.evergreen) {
   filePath = "evergreen" + "/" + config.editionYear + "/";
-} else {
+} else if (config.top2000) {
   filePath = "top" + config.editionYear + "/";
+} else {
+  throw "No edition type specified!";
 }
+
 var songs = JSON.parse(fs.readFileSync(filePath + "songs.json"));
 var hours = JSON.parse(fs.readFileSync(filePath + "hours.json"));
 var votes = JSON.parse(fs.readFileSync(filePath + "votes.json"));
 var presenters = JSON.parse(fs.readFileSync(filePath + "presenters.json"));
 
-maxSongsNum = config.evergreen ? 1000 : 2000;
+if (config.evergreen) maxSongsNum = 1000;
+if (config.top2000) maxSongsNum = 2000;
 
 for (var i = 0; i < maxSongsNum; i++) {
   if (config.testMode) {
@@ -176,7 +181,8 @@ function getData() {
   }
   lastRequestTime = now;
 
-  var host = config.evergreen ? "www.nporadio5.nl" : "www.nporadio2.nl";
+  if (config.evergreen) var host = "www.nporadio5.nl";
+  if (config.top2000) var host = "www.nporadio2.nl";
   var options = {
     host: host,
     port: 443,
@@ -213,7 +219,11 @@ function handleResponse(data) {
   }
   var newArtist = json["data"][0]["artist"];
   var originalNewTitle = json["data"][0]["title"];
-  var newTitle = originalNewTitle.substring(originalNewTitle.indexOf(" ") + 1);
+  var newTitle = typeof originalNewTitle.substring(
+    isNaN(originalNewTitle.charAt(1))
+  )
+    ? originalNewTitle
+    : originalNewTitle.substring(originalNewTitle.indexOf(" ") + 1);
   console.log("current song: " + newArtist + " - " + newTitle);
 
   if (previousArtist !== newArtist || previousTitle !== newTitle) {
@@ -247,14 +257,13 @@ function handleResponse(data) {
           } else {
             var hourEnd = 1;
           }
-          var searchFrom = Math.min(
-            config.evergreen ? 1000 : 2000,
-            hourStart + 5
-          );
+          if (config.evergreen) var searchFrom = Math.min(1000);
+          if (config.top2000) var searchFrom = Math.min(2000);
           var searchTo = Math.max(hourEnd - 5, 1);
         }
       } else {
-        var searchFrom = config.evergreen ? 1000 : 2000;
+        if (config.evergreen) var searchFrom = Math.min(1000);
+        if (config.top2000) var searchFrom = Math.min(2000);
         var searchTo = 1;
       }
 
@@ -277,6 +286,7 @@ function handleResponse(data) {
       }
 
       if (closestLevenshtein > 25) {
+        console.log(json["data"][0]);
         currentSong = {
           title: newTitle,
           artist: newArtist,
@@ -287,7 +297,9 @@ function handleResponse(data) {
         nextSong = null;
       } else {
         currentSong = songAt(closestMatch);
-        if (closestMatch < config.evergreen ? 1000 : 2000) {
+        if (config.evergreen) var matchFrom = 1000;
+        if (config.top2000) var matchFrom = 1000;
+        if (closestMatch < matchFrom) {
           previousSong = songAt(closestMatch + 1);
         }
         if (closestMatch > 1) {
@@ -377,23 +389,22 @@ function showHourOverview() {
   var hour = d.getHours();
   var month = d.getMonth() + 1;
   if (config.testMode) {
-    date = 25;
+    date = config.evergreen ? 20 : 25;
     hour = config.evergreen ? 8 : 0;
   }
-
   if (
     config.testMode ||
     (month === 12 && date >= 25) ||
     (config.evergreen &&
       month === 11 &&
-      date >= 14 &&
-      18 >= date &&
+      date >= 20 &&
+      24 >= date &&
       hour >= 6 &&
       20 >= hour)
   ) {
     console.log("We are live!");
     var songsInHour = [];
-
+    console.log(date, hour);
     var topHour = findHour(date, hour);
     var hourStart = hours[topHour].start_id - 1;
     var hourEnd = hours[topHour + 1].start_id - 1;
