@@ -1,17 +1,12 @@
 {
   "name": "top2000-viewer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A website to view the currently playing song in the Top 2000",
   "dependencies": {
-    "@pm2/io": "^5.0.0",
     "express": "^4.10.2",
     "js-levenshtein": "^1.1.6",
-    "mocha": "^8.2.1",
     "node-schedule": "^0.6.0",
-    "nodemon": "^2.0.20",
-    "pm2": "^5.3.0",
-    "socket.io": "^2.3.0",
-    "twilio": "^3.54.1"
+    "socket.io": "^4.7.2"
   },
   "scripts": {
     "start": "node index.js"
