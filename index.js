@@ -20,10 +20,10 @@ var schedule = require("node-schedule");
 
 const levenshtein = require("js-levenshtein");
 
-var twilio = require("twilio");
+//var twilio = require("twilio");
 const accountSid = "ACCOUNT_SID";
 const authToken = "AUTH_TOKEN";
-const twilioClient = twilio(accountSid, authToken);
+//const twilioClient = twilio(accountSid, authToken);
 
 var config = JSON.parse(fs.readFileSync("config.json"));
 var filePath;
