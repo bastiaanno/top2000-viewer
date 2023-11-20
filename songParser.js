@@ -59,6 +59,6 @@ getData().then((out) => {
   );
   fs.writeFileSync(
     "./evergreen/" + new Date().getFullYear() + "/songs.json",
-    JSON.stringify(out.positions)
+    JSON.stringify(out.positions.reverse())
   );
 });
