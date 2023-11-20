@@ -116,7 +116,7 @@ body {
     height: 540px;
     border-radius: 20px;
     animation: breathing-shadow-2 6s ease-in-out infinite normal;
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 
 @keyframes breathing-shadow-2 {
@@ -237,7 +237,8 @@ body {
     transform: translateX(-11px);
     border: 4px solid #FEE163;
     border-radius: 15px;
-    background-color: #B2DBD6;
+    background-color: #FEE163;
+
 }
 
 
