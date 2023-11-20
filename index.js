@@ -34,7 +34,6 @@ if (config.evergreen) {
 } else {
   throw "No edition type specified!";
 }
-
 var songs = JSON.parse(fs.readFileSync(filePath + "songs.json"));
 var hours = JSON.parse(fs.readFileSync(filePath + "hours.json"));
 var votes = JSON.parse(fs.readFileSync(filePath + "votes.json"));
@@ -219,13 +218,10 @@ function handleResponse(data) {
   }
   var newArtist = json["data"][0]["artist"];
   var originalNewTitle = json["data"][0]["title"];
-  var newTitle = typeof originalNewTitle.substring(
-    isNaN(originalNewTitle.charAt(1))
-  )
+  var newTitle = isNaN(originalNewTitle.charAt(1))
     ? originalNewTitle
     : originalNewTitle.substring(originalNewTitle.indexOf(" ") + 1);
   console.log("current song: " + newArtist + " - " + newTitle);
-
   if (previousArtist !== newArtist || previousTitle !== newTitle) {
     previousArtist = newArtist;
     previousTitle = newTitle;
@@ -243,8 +239,8 @@ function handleResponse(data) {
       (month === 12 && date >= 25) ||
       (config.evergreen &&
         month === 11 &&
-        date >= 14 &&
-        18 >= date &&
+        date >= 20 &&
+        24 >= date &&
         hour >= 6 &&
         hour <= 20)
     ) {
@@ -257,13 +253,14 @@ function handleResponse(data) {
           } else {
             var hourEnd = 1;
           }
-          if (config.evergreen) var searchFrom = Math.min(1000);
-          if (config.top2000) var searchFrom = Math.min(2000);
+          var searchFrom = Math.min(
+            config.evergreen ? 1000 : 2000,
+            hourStart + 5
+          );
           var searchTo = Math.max(hourEnd - 5, 1);
         }
       } else {
-        if (config.evergreen) var searchFrom = Math.min(1000);
-        if (config.top2000) var searchFrom = Math.min(2000);
+        var searchFrom = config.evergreen ? 1000 : 2000;
         var searchTo = 1;
       }
 
@@ -298,7 +295,7 @@ function handleResponse(data) {
       } else {
         currentSong = songAt(closestMatch);
         if (config.evergreen) var matchFrom = 1000;
-        if (config.top2000) var matchFrom = 1000;
+        if (config.top2000) var matchFrom = 2000;
         if (closestMatch < matchFrom) {
           previousSong = songAt(closestMatch + 1);
         }
