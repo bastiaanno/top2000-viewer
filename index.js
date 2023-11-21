@@ -20,11 +20,6 @@ var schedule = require("node-schedule");
 
 const levenshtein = require("js-levenshtein");
 
-//var twilio = require("twilio");
-const accountSid = "ACCOUNT_SID";
-const authToken = "AUTH_TOKEN";
-//const twilioClient = twilio(accountSid, authToken);
-
 var config = JSON.parse(fs.readFileSync("config.json"));
 var filePath;
 if (config.evergreen) {
@@ -129,7 +124,7 @@ io.on("connection", function (socket) {
 https.listen(config.ports.https);
 
 getData();
-setInterval(getData, 1000);
+setInterval(getData, config.polling.interval);
 
 function getData() {
   if (config.hideShadow) {
@@ -335,22 +330,6 @@ function handleResponse(data) {
             typeof votes.find((x) => x.abbreviation == voter) !== "undefined"
           ) {
             voterName = votes.find((x) => x.abbreviation == voter).name;
-            voterPhoneNumber = votes.find((x) => x.abbreviation == voter).phone;
-            whatsappEnabled = votes.find(
-              (x) => x.abbreviation == voter
-            ).whatsappEnabled;
-            //if (whatsappEnabled) {
-            //    twilioClient.messages
-            //        .create({
-            //            body: voterName + ",\nhet volgende liedje in de top2000 is een liedje waar je op hebt gestemd:\n" +
-            //                nextSong.title + " - " + nextSong.artist + "\nop plaats //" + nextSong.id,
-            //            from: 'whatsapp:+14155238886',
-            //            to: 'whatsapp:' + voterPhoneNumber
-            //        })
-            //        .then(message => console.log(message.sid))
-            //        .done();
-            //    console.log("sending whatsapp message to " + voterName);
-            //}
           } else {
             console.log("voter '" + voter + "' not found");
           }
@@ -411,7 +390,6 @@ function showHourOverview() {
       song["id"] = i + 1;
       songsInHour.push(song);
     }
-    //console.log(songsInHour);
 
     var presenter = presenterInHour(hour);
     io.emit("hour overview", {
@@ -441,7 +419,10 @@ var j = schedule.scheduleJob(everyHour, function () {
 });
 
 function getHourCount(date, hour) {
-  return 24 * (date - 25) + hour;
+  return (
+    (config.evergreen ? 14 : 24) * (date + 1 - (config.evergreen ? 20 : 25)) +
+    hour
+  );
 }
 
 // given an hour of the day (0-23), figures out which DJ is presenting then
