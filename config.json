@@ -20,5 +20,8 @@
   "slogans": {
     "radio2": "Top2000 mooiste nummers ooit gemaakt",
     "radio5": "Evergreen top 1000"
+  },
+  "polling" : {
+    "interval": 2500
   }
 }
