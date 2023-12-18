@@ -1,24 +1,36 @@
 /* UPDATED BY BASTIAANNO */
-var fs = require("fs");
-const pm2 = require("@pm2/io");
+import fs from "fs";
+import pm2 from "@pm2/io";
 const websocketConnections = pm2.counter({
   name: "Websocket Connections",
   id: "app/websocket/connections",
 });
-var express = require("express");
+import express from "express";
 var app = express();
 var certs = {
   key: fs.readFileSync("Top2000-key.pem"),
   cert: fs.readFileSync("Top2000.pem"),
   ca: fs.readFileSync("Top2000-chain.pem"),
 };
-var https = require("https").Server(certs, app);
+import https from "https";
+
+var httpsServer = https.Server(certs, app);
 //var http = require("http").Server(app);
-var io = require("socket.io")(https);
+import * as socket_io from "socket.io";
+var io = new socket_io.Server(httpsServer);
 
-var schedule = require("node-schedule");
+import schedule from "node-schedule";
 
-const levenshtein = require("js-levenshtein");
+import levenshtein from "js-levenshtein";
+import { songAt, removeParentheses, getHourCount } from "./modules/helpers.js";
+
+//SET UP __dirname
+
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 var config = JSON.parse(fs.readFileSync("config.json"));
 var filePath;
@@ -33,7 +45,7 @@ var songs = JSON.parse(fs.readFileSync(filePath + "songs.json"));
 var hours = JSON.parse(fs.readFileSync(filePath + "hours.json"));
 var votes = JSON.parse(fs.readFileSync(filePath + "votes.json"));
 var presenters = JSON.parse(fs.readFileSync(filePath + "presenters.json"));
-
+var maxSongsNum;
 if (config.evergreen) maxSongsNum = 1000;
 if (config.top2000) maxSongsNum = 2000;
 
@@ -121,7 +133,7 @@ io.on("connection", function (socket) {
   }
 });
 
-https.listen(config.ports.https);
+httpsServer.listen(config.ports.https);
 
 getData();
 setInterval(getData, config.polling.interval);
@@ -183,7 +195,7 @@ function getData() {
     path: "/api/tracks",
   };
   console.log("Requesting from https://" + host + options.path + "/");
-  require("https")
+  https
     .get(options, function (response) {
       response.setEncoding("utf8");
       var data = "";
@@ -339,10 +351,6 @@ function handleResponse(data) {
   }
 }
 
-function songAt(id) {
-  return songs[id - 1];
-}
-
 function findHour(date, hour) {
   for (var i = 0; i < hours.length; i++) {
     if (hours[i].day === date && hours[i].hour === hour) {
@@ -418,13 +426,6 @@ var j = schedule.scheduleJob(everyHour, function () {
   });
 });
 
-function getHourCount(date, hour) {
-  return (
-    (config.evergreen ? 14 : 24) * (date + 1 - (config.evergreen ? 20 : 25)) +
-    hour
-  );
-}
-
 // given an hour of the day (0-23), figures out which DJ is presenting then
 function presenterInHour(hour) {
   for (let i = presenters.length - 1; i >= 0; i--) {
@@ -436,10 +437,6 @@ function presenterInHour(hour) {
   return "(DJ onbekend)";
 }
 
-function removeParentheses(text) {
-  return text.replace(/\)[^)]*\)/, "");
-}
-
 // given an (1-based) song ID, check if this is the last song of an hour
 function isLastSongInHour(id) {
   for (let i = 0; i < hours.length; i++) {
@@ -449,3 +446,4 @@ function isLastSongInHour(id) {
   }
   return false;
 }
+export { config };
