@@ -281,7 +281,6 @@ function handleResponse(data) {
       }
 
       if (closestLevenshtein > 25) {
-        console.log(json["data"][0]);
         currentSong = {
           title: newTitle,
           artist: newArtist,
