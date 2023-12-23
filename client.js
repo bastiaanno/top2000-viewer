@@ -1,5 +1,5 @@
 $(function () {
-  const formatter = new Intl.DateTimeFormat("fr", { month: "short" });
+  const formatter = new Intl.DateTimeFormat("nl", { month: "long" });
   const month1 = formatter.format(new Date());
   var startTime = 0;
   var stopTime = 0;
@@ -168,7 +168,7 @@ $(function () {
         month1 +
         " " +
         msg.hour +
-        ":00 &nbsp;&nbsp;&nbsp;&nbsp; uur " +
+        ":00&nbsp;&nbsp;&nbsp;&nbsp; uur " +
         msg.hourCount +
         "/" +
         msg.hoursTotal +
