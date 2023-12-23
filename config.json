@@ -4,9 +4,9 @@
     "https": 3001
   },
   "tz": 0,
-  "testMode": false,
-  "top2000": false,
-  "evergreen": true,
+  "testMode": true,
+  "top2000": true,
+  "evergreen": false,
   "hours": {
     "evergreen": 70,
     "top2000": 168
