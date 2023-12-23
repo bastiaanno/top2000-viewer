@@ -22,25 +22,25 @@ var io = new socket_io.Server(httpsServer);
 import schedule from "node-schedule";
 
 import levenshtein from "js-levenshtein";
-import { songAt, removeParentheses, getHourCount } from "./modules/helpers.js";
+import {
+  songAt,
+  removeParentheses,
+  isLastSongInHour,
+  findHour,
+  isLive,
+  showHourOverview,
+  getFilePath,
+} from "./modules/helpers.js";
 
 //SET UP __dirname
 
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 var config = JSON.parse(fs.readFileSync("config.json"));
-var filePath;
-if (config.evergreen) {
-  filePath = "evergreen" + "/" + config.editionYear + "/";
-} else if (config.top2000) {
-  filePath = "top" + config.editionYear + "/";
-} else {
-  throw "No edition type specified!";
-}
+var filePath = getFilePath();
 var songs = JSON.parse(fs.readFileSync(filePath + "songs.json"));
 var hours = JSON.parse(fs.readFileSync(filePath + "hours.json"));
 var votes = JSON.parse(fs.readFileSync(filePath + "votes.json"));
@@ -241,16 +241,7 @@ function handleResponse(data) {
     var date = d.getDate();
     var hour = d.getHours();
     var month = d.getMonth() + 1;
-    if (
-      config.testMode ||
-      (month === 12 && date >= 25) ||
-      (config.evergreen &&
-        month === 11 &&
-        date >= 20 &&
-        24 >= date &&
-        hour >= 6 &&
-        hour <= 20)
-    ) {
+    if (isLive(month, date, hour)) {
       console.log("We are live!");
       if (!config.testMode) {
         if (findHour(date, hour) > 0) {
@@ -351,68 +342,9 @@ function handleResponse(data) {
   }
 }
 
-function findHour(date, hour) {
-  for (var i = 0; i < hours.length; i++) {
-    if (hours[i].day === date && hours[i].hour === hour) {
-      return i;
-    }
-  }
-  return -1;
-}
-
 var everyHour = new schedule.RecurrenceRule();
 everyHour.minute = 0;
 var j = schedule.scheduleJob(everyHour, showHourOverview);
-
-function showHourOverview() {
-  console.log("showing hour overview");
-
-  var d = new Date();
-  d.setTime(d.getTime() - config.tz * 60 * 60 * 1000);
-  var date = d.getDate();
-  var hour = d.getHours();
-  var month = d.getMonth() + 1;
-  if (config.testMode) {
-    date = config.evergreen ? 20 : 25;
-    hour = config.evergreen ? 8 : 0;
-  }
-  if (
-    config.testMode ||
-    (month === 12 && date >= 25) ||
-    (config.evergreen &&
-      month === 11 &&
-      date >= 20 &&
-      24 >= date &&
-      hour >= 6 &&
-      20 >= hour)
-  ) {
-    console.log("We are live!");
-    var songsInHour = [];
-    console.log(date, hour);
-    var topHour = findHour(date, hour);
-    var hourStart = hours[topHour].start_id - 1;
-    var hourEnd = hours[topHour + 1].start_id - 1;
-
-    for (var i = hourStart; i > hourEnd; i--) {
-      var song = songs[i];
-      song["id"] = i + 1;
-      songsInHour.push(song);
-    }
-
-    var presenter = presenterInHour(hour);
-    io.emit("hour overview", {
-      date: date,
-      hour: hour,
-      hourCount: getHourCount(date, hour),
-      songs: songsInHour,
-      presenter: presenter,
-      hoursTotal: config.evergreen
-        ? config.hours.evergreen
-        : config.hours.top2000,
-    });
-    io.emit("editionInfo", config.evergreen ? "Evergreen top 1000" : "Top2000");
-  }
-}
 
 var everyMinute = new schedule.RecurrenceRule();
 var j = schedule.scheduleJob(everyHour, function () {
@@ -426,24 +358,4 @@ var j = schedule.scheduleJob(everyHour, function () {
   });
 });
 
-// given an hour of the day (0-23), figures out which DJ is presenting then
-function presenterInHour(hour) {
-  for (let i = presenters.length - 1; i >= 0; i--) {
-    let presenter = presenters[i];
-    if (hour >= presenter["hour"]) {
-      return presenter["name"];
-    }
-  }
-  return "(DJ onbekend)";
-}
-
-// given an (1-based) song ID, check if this is the last song of an hour
-function isLastSongInHour(id) {
-  for (let i = 0; i < hours.length; i++) {
-    if (id === hours[i]["start_id"] + 1) {
-      return true;
-    }
-  }
-  return false;
-}
-export { config };
+export { config, hours, songs };
