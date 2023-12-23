@@ -1,7 +1,7 @@
-const fs = require("fs");
+import fs from "fs";
 async function getData() {
   const req = await fetch(
-    "https://www.nporadio5.nl/api/charts/evergreen-top-1000-van-2023-11-20",
+    "https://www.nporadio2.nl/api/charts/top-2000-van-2023-12-25",
     {
       cache: "default",
       credentials: "include",
@@ -50,15 +50,15 @@ async function getData() {
 }
 
 getData().then((out) => {
-  if (!fs.existsSync("./evergreen/" + new Date().getFullYear())) {
-    fs.mkdirSync("./evergreen/" + new Date().getFullYear());
+  if (!fs.existsSync("./top" + new Date().getFullYear() + "/")) {
+    fs.mkdirSync("./top" + new Date().getFullYear() + "/");
   }
   fs.writeFileSync(
-    "./evergreen/" + new Date().getFullYear() + "/hours.json",
+    "./top" + new Date().getFullYear() + "/hours.json",
     JSON.stringify(out.hours)
   );
   fs.writeFileSync(
-    "./evergreen/" + new Date().getFullYear() + "/songs.json",
+    "./top" + new Date().getFullYear() + "/songs.json",
     JSON.stringify(out.positions.reverse())
   );
 });
