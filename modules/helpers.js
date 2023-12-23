@@ -7,10 +7,7 @@ function removeParentheses(text) {
   return text.replace(/\)[^)]*\)/, "");
 }
 function getHourCount(date, hour) {
-  return (
-    (config.evergreen ? 14 : 24) * (date + 1 - (config.evergreen ? 20 : 25)) +
-    hour
-  );
+  return hours.findIndex((item) => item.day == date && item.hour == hour) + 1;
 }
 // given an hour of the day (0-23), figures out which DJ is presenting then
 function presenterInHour(hour) {
@@ -68,7 +65,6 @@ function showHourOverview() {
   ) {
     console.log("We are live!");
     var songsInHour = [];
-    console.log(date, hour);
     var topHour = findHour(date, hour);
     var hourStart = hours[topHour].start_id - 1;
     var hourEnd = hours[topHour + 1].start_id - 1;
