@@ -1,5 +1,5 @@
 import fs from "fs";
-import { config, hours, songs } from "../index.js";
+import { config, hours, io, presenters, songs } from "../index.js";
 function songAt(id) {
   return songs[id - 1];
 }
@@ -97,8 +97,7 @@ function getFilePath() {
   if (!config.evergreen && !config.top2000) throw "No edition type specified!";
   return (
     (config.evergreen ? "evergreen" : "" + config.top2000 ? "top" : "") +
-    "/" +
-    config.editionYear +
+    +config.editionYear +
     "/"
   );
 }
