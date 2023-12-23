@@ -358,4 +358,4 @@ var j = schedule.scheduleJob(everyHour, function () {
   });
 });
 
-export { config, hours, songs };
+export { config, hours, songs, presenters, io };
