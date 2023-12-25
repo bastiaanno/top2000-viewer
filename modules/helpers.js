@@ -32,14 +32,16 @@ function findHour(date, hour) {
   return -1;
 }
 function isLive(month, date, hour) {
-  config.testMode ||
+  return (
+    config.testMode ||
     (month === 12 && date >= 25) ||
     (config.evergreen &&
       month === 11 &&
       date >= 20 &&
       24 >= date &&
       hour >= 6 &&
-      hour <= 20);
+      hour <= 20)
+  );
 }
 function showHourOverview() {
   console.log("showing hour overview");
@@ -49,10 +51,6 @@ function showHourOverview() {
   var date = d.getDate();
   var hour = d.getHours();
   var month = d.getMonth() + 1;
-  if (config.testMode) {
-    date = config.evergreen ? 20 : 25;
-    hour = config.evergreen ? 8 : 0;
-  }
   if (
     config.testMode ||
     (month === 12 && date >= 25) ||
