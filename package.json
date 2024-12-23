@@ -1,6 +1,6 @@
 {
   "name": "top2000-viewer",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A website to view the currently playing song in the Top 2000",
   "dependencies": {
     "@pm2/io": "^5.0.2",
