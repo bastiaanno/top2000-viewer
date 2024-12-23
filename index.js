@@ -1,10 +1,5 @@
 /* UPDATED BY BASTIAANNO */
 import fs from "fs";
-import pm2 from "@pm2/io";
-const websocketConnections = pm2.counter({
-  name: "Websocket Connections",
-  id: "app/websocket/connections",
-});
 import express from "express";
 var app = express();
 var certs = {
@@ -41,27 +36,21 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 var config = JSON.parse(fs.readFileSync("config.json"));
 var filePath = getFilePath();
-var songs = JSON.parse(fs.readFileSync(filePath + "songs.json"));
+var songs = JSON.parse(fs.readFileSync(filePath + "songs-unpruned.json"));
 var hours = JSON.parse(fs.readFileSync(filePath + "hours.json"));
 var votes = JSON.parse(fs.readFileSync(filePath + "votes.json"));
 var presenters = JSON.parse(fs.readFileSync(filePath + "presenters.json"));
-var maxSongsNum;
-if (config.evergreen) maxSongsNum = 1000;
-if (config.top2000) maxSongsNum = 2000;
+var maxSongsNum = config.evergreen ? 1000 : 2000;
 
 for (var i = 0; i < maxSongsNum; i++) {
-  if (config.testMode) {
-    songs[i].voters = ["te"];
-  } else {
-    songs[i].voters = [];
-  }
+  songs.positions[i].voters = config.testMode ? ["te"] : [];
 }
 
-for (var i = 0; i < votes.length; i++) {
-  for (var j = 0; j < votes[i].votes.length; j++) {
-    songs[votes[i].votes[j] - 1].voters.push(votes[i].abbreviation);
-  }
-}
+votes.forEach((vote) => {
+  vote.votes.forEach((voteId) => {
+    songs.positions[voteId - 1].voters.push(vote.abbreviation);
+  });
+});
 
 var lastRequestTime = 0;
 
@@ -117,15 +106,11 @@ io.on("connection", function (socket) {
     "New socket connection established with user agent " +
       socket.request.headers["user-agent"]
   );
-  websocketConnections.inc();
   console.log("sending song");
   socket.emit("new song", {
     currentSong: currentSong,
     previousSong: previousSong,
     nextSong: nextSong,
-  });
-  io.on("disconnect", () => {
-    websocketConnections.dec();
   });
   if (config.testMode) {
     console.log("test mode enabled, showing hour overview");
@@ -193,6 +178,9 @@ function getData() {
     host: host,
     port: 443,
     path: "/api/tracks",
+    headers: {
+      "User-Agent": "Top2000-viewer/1.0",
+    },
   };
   console.log("Requesting from https://" + host + options.path + "/");
   https
@@ -203,7 +191,18 @@ function getData() {
         data += chunk;
       });
       response.on("end", function () {
-        handleResponse(data);
+        if (response.statusCode === 200) {
+          handleResponse(data);
+        } else {
+          console.log(
+            "requested current song, but got error: " + response.statusCode
+          );
+          console.log(response.headers);
+          io.emit(
+            "error",
+            "Requested current song, but got error: " + response.statusMessage
+          );
+        }
       });
     })
     .on("error", function (e) {
@@ -220,7 +219,6 @@ function handleResponse(data) {
     console.log("Error while parsing JSON: " + e.message);
     console.log("    in JSON string: " + data);
     io.emit("error", "Returned JSON was invalid: " + e.message);
-    // ...
     return;
   }
   var newArtist = json["data"][0]["artist"];
@@ -244,13 +242,12 @@ function handleResponse(data) {
     if (isLive(month, date, hour)) {
       console.log("We are live!");
       if (!config.testMode) {
-        if (findHour(date, hour) > 0) {
-          var hourStart = hours[findHour(date, hour)].start_id - 1;
-          if (hours[findHour(date, hour) + 1] != undefined) {
-            var hourEnd = hours[findHour(date, hour) + 1].start_id - 1;
-          } else {
-            var hourEnd = 1;
-          }
+        var hourIndex = findHour(date, hour);
+        if (hourIndex > 0) {
+          var hourStart = hours[hourIndex].start_id - 1;
+          var hourEnd = hours[hourIndex + 1]
+            ? hours[hourIndex + 1].start_id - 1
+            : 1;
           var searchFrom = Math.min(
             config.evergreen ? 1000 : 2000,
             hourStart + 5
@@ -263,23 +260,21 @@ function handleResponse(data) {
       }
 
       var closestMatch = -1;
-      var closestLevenshtein = 10000000;
+      var closestLevenshtein = Infinity;
 
       for (var i = searchFrom; i >= searchTo; i--) {
-        var l = levenshtein(newArtist, songs[i - 1].artist);
-        l += levenshtein(
-          removeParentheses(newTitle),
-          removeParentheses(songs[i - 1].title)
-        );
+        var l =
+          levenshtein(newArtist, songs.positions[i - 1].track.artist) +
+          levenshtein(
+            removeParentheses(newTitle),
+            removeParentheses(songs.positions[i - 1].track.title)
+          );
         if (l < closestLevenshtein) {
           closestMatch = i;
           closestLevenshtein = l;
         }
-        if (l === 0) {
-          break;
-        }
+        if (l === 0) break;
       }
-
       if (closestLevenshtein > 25) {
         currentSong = {
           title: newTitle,
@@ -291,16 +286,11 @@ function handleResponse(data) {
         nextSong = null;
       } else {
         currentSong = songAt(closestMatch);
-        if (config.evergreen) var matchFrom = 1000;
-        if (config.top2000) var matchFrom = 2000;
-        if (closestMatch < matchFrom) {
-          previousSong = songAt(closestMatch + 1);
-        }
-        if (closestMatch > 1) {
-          nextSong = songAt(closestMatch - 1);
-        } else {
-          nextSong = null;
-        }
+        previousSong =
+          closestMatch < (config.evergreen ? 1000 : 2000)
+            ? songAt(closestMatch + 1)
+            : previousSong;
+        nextSong = closestMatch > 1 ? songAt(closestMatch - 1) : null;
       }
       io.emit(
         "editionSlogan",
@@ -308,45 +298,38 @@ function handleResponse(data) {
       );
     } else {
       currentSong = {
-        // 'id': '...',
         title: newTitle,
         artist: newArtist,
       };
       nextSong = null;
     }
-    currentSong["startTime"] = Date.parse(json["data"][0]["startdatetime"]);
-    currentSong["stopTime"] = Date.parse(json["data"][0]["enddatetime"]);
+    currentSong.startTime = Date.parse(json["data"][0]["startdatetime"]);
+    currentSong.stopTime = Date.parse(json["data"][0]["enddatetime"]);
     console.log("Informing websocket subscribers");
     io.emit("new song", {
       currentSong: currentSong,
       previousSong: previousSong,
       nextSong: nextSong,
     });
-    if (typeof (nextSong !== "undefined") && nextSong !== null) {
-      if (
-        typeof nextSong.voters !== "undefined" &&
-        nextSong.voters.length > 0
-      ) {
-        nextSong.voters.forEach((voter) => {
-          if (
-            typeof votes.find((x) => x.abbreviation == voter) !== "undefined"
-          ) {
-            voterName = votes.find((x) => x.abbreviation == voter).name;
-          } else {
-            console.log("voter '" + voter + "' not found");
-          }
-        });
-      }
+    if (nextSong && nextSong.voters && nextSong.voters.length > 0) {
+      nextSong.voters.forEach((voter) => {
+        var voterInfo = votes.find((x) => x.abbreviation == voter);
+        if (voterInfo) {
+          voterName = voterInfo.name;
+        } else {
+          console.log("voter '" + voter + "' not found");
+        }
+      });
     }
   }
 }
 
 var everyHour = new schedule.RecurrenceRule();
 everyHour.minute = 0;
-var j = schedule.scheduleJob(everyHour, showHourOverview);
+schedule.scheduleJob(everyHour, showHourOverview);
 
 var everyMinute = new schedule.RecurrenceRule();
-var j = schedule.scheduleJob(everyHour, function () {
+schedule.scheduleJob(everyMinute, function () {
   console.log("time update");
   var d = new Date();
   d.setTime(d.getTime() - config.tz * 60 * 60 * 1000);

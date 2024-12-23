@@ -4,7 +4,7 @@
     "https": 3001
   },
   "tz": 0,
-  "testMode": false,
+  "testMode": true,
   "top2000": true,
   "evergreen": false,
   "hours": {
@@ -12,7 +12,7 @@
     "top2000": 168
   },
   "hideShadow": false,
-  "editionYear": 2023,
+  "editionYear": 2024,
   "api": {
     "radio2": "nporadio2.nl",
     "radio5": "nporadio5.nl"

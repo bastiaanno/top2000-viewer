@@ -1,0 +1,195 @@
+{
+  "data": {
+    "allChannels": {
+      "__typename": "core_channelsPagination",
+      "data": [
+        {
+          "__typename": "core_channels",
+          "slug": "npo-radio-2-soul-jazz",
+          "name": "NPO Soul & Jazz"
+        }
+      ]
+    },
+    "coreChannels": {
+      "__typename": "core_channelsPagination",
+      "data": [
+        {
+          "__typename": "core_channels",
+          "slug": "npo-radio-2",
+          "name": "NPO Radio 2",
+          "published": true,
+          "hasProgramming": true,
+          "liveVideo": {
+            "__typename": "player",
+            "tokenUrl": "https://play-api.nporadio.nl/play/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6Im5wb3JhZGlvLWFwaSJ9.eyJpYXQiOjE3MzQ5ODQ5NDYsIm1pZCI6IkxJX1JBRElPMl8zMDA4NzkifQ.vB15d7Ra_er_EcqPwJmk2zHZESL6PJWz7EKS0Gji4DI"
+          },
+          "liveAudio": {
+            "__typename": "player",
+            "tokenUrl": "https://play-api.nporadio.nl/play/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6Im5wb3JhZGlvLWFwaSJ9.eyJpYXQiOjE3MzQ5ODQ5NDYsIm1pZCI6IkxJX1JBMl84MTY3MzUzIn0.jrV8wHu9Sla2y_3KouRcIa13wnpL9cd8-qeVfE1p0RM"
+          },
+          "links": [
+            {
+              "__typename": "key_value",
+              "name": "popupplayer",
+              "value": "https://www.nporadio2.nl/online-radio-luisteren/"
+            }
+          ],
+          "children": [
+            {
+              "__typename": "core_channels",
+              "slug": "npo-radio-2-soul-jazz",
+              "links": [
+                {
+                  "__typename": "key_value",
+                  "name": "popupplayer",
+                  "value": "https://www.nporadio2.nl/soulenjazz/online-radio-luisteren/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "radioBroadcasts": {
+      "__typename": "radio_broadcastsPagination",
+      "data": [
+        {
+          "__typename": "radio_broadcasts",
+          "name": "Hallo met DaniÃ«l",
+          "from": "2024-12-23 20:00:00",
+          "until": "2024-12-23 22:00:00",
+          "slug": "hallo-met-dani_l",
+          "coreBroadcasters": [
+            {
+              "__typename": "core_broadcasters",
+              "name": "BNNVARA",
+              "alias": "bnnvara"
+            }
+          ],
+          "radioProgrammes": {
+            "__typename": "radio_programmes",
+            "slug": "_",
+            "name": "Hallo met Daniel",
+            "radioPhotoAssets": {
+              "__typename": "radio_photo_assets",
+              "url360": "https://radioimages.npox.nl/RAD2/image/3f4a4c7a-50bb-4624-8fc2-4ec44e90d533/20240822_DANIEL_FotograafEmmaPot_7VI01279_HQ.jpg?width=360",
+              "url600": "https://radioimages.npox.nl/RAD2/image/3f4a4c7a-50bb-4624-8fc2-4ec44e90d533/20240822_DANIEL_FotograafEmmaPot_7VI01279_HQ.jpg?width=600",
+              "url1200": "https://radioimages.npox.nl/RAD2/image/3f4a4c7a-50bb-4624-8fc2-4ec44e90d533/20240822_DANIEL_FotograafEmmaPot_7VI01279_HQ.jpg?width=1200"
+            }
+          },
+          "radioPresenters": [
+            { "__typename": "radio_presenters", "name": "Daniel Lippens" }
+          ],
+          "radioPhotoAssets": {
+            "__typename": "radio_photo_assets",
+            "id": "9d09a3af-49fe-4878-8bca-5b905a1c0bf2",
+            "url360": "https://radioimages.npox.nl/RAD2/image/3f4a4c7a-50bb-4624-8fc2-4ec44e90d533/20240822_DANIEL_FotograafEmmaPot_7VI01279_HQ.jpg?width=360",
+            "url600": "https://radioimages.npox.nl/RAD2/image/3f4a4c7a-50bb-4624-8fc2-4ec44e90d533/20240822_DANIEL_FotograafEmmaPot_7VI01279_HQ.jpg?width=600",
+            "url1200": "https://radioimages.npox.nl/RAD2/image/3f4a4c7a-50bb-4624-8fc2-4ec44e90d533/20240822_DANIEL_FotograafEmmaPot_7VI01279_HQ.jpg?width=1200"
+          }
+        }
+      ]
+    },
+    "upcomingBroadcasts": {
+      "__typename": "radio_broadcastsPagination",
+      "data": [
+        {
+          "__typename": "radio_broadcasts",
+          "name": "Dees Moet Je Horen!",
+          "from": "2024-12-23 22:00:00",
+          "until": "2024-12-24 00:00:00",
+          "slug": "dees-moet-je-horen",
+          "coreBroadcasters": [
+            {
+              "__typename": "core_broadcasters",
+              "name": "PowNed",
+              "alias": "powned"
+            }
+          ],
+          "radioProgrammes": {
+            "__typename": "radio_programmes",
+            "slug": "dees-moet-je-horen",
+            "name": "Dees Moet Je Horen!",
+            "radioPhotoAssets": {
+              "__typename": "radio_photo_assets",
+              "url360": "https://radioimages.npox.nl/s3-nporadio2/tgdzdzw7gda-desiree-van-der-heiden-2024.jpg?width=360",
+              "url600": "https://radioimages.npox.nl/s3-nporadio2/tgdzdzw7gda-desiree-van-der-heiden-2024.jpg?width=600",
+              "url1200": "https://radioimages.npox.nl/s3-nporadio2/tgdzdzw7gda-desiree-van-der-heiden-2024.jpg?width=1200"
+            }
+          },
+          "radioPresenters": [
+            { "__typename": "radio_presenters", "name": "Thomas Hekker" }
+          ],
+          "radioPhotoAssets": {
+            "__typename": "radio_photo_assets",
+            "id": "9bd4290e-8d12-4005-88a9-9c96ad837821",
+            "url360": "https://radioimages.npox.nl/RAD2/image/82914ec2-b9ed-4138-b449-7881f931fec5/15042024_FotograafEmmaPot_THOMAS-2.jpg?width=360",
+            "url600": "https://radioimages.npox.nl/RAD2/image/82914ec2-b9ed-4138-b449-7881f931fec5/15042024_FotograafEmmaPot_THOMAS-2.jpg?width=600",
+            "url1200": "https://radioimages.npox.nl/RAD2/image/82914ec2-b9ed-4138-b449-7881f931fec5/15042024_FotograafEmmaPot_THOMAS-2.jpg?width=1200"
+          }
+        }
+      ]
+    },
+    "radioTrackPlays": {
+      "__typename": "radio_track_playPagination",
+      "data": [
+        {
+          "__typename": "radio_track_play",
+          "id": "9dcbc1f9-f1f6-4691-9f7a-ee5e79403951",
+          "artist": "Stromae",
+          "from": "2024-12-23 21:09:39",
+          "song": "Tous les memes",
+          "until": "2024-12-23 21:13:11",
+          "radioTracks": {
+            "__typename": "radio_tracks",
+            "id": "d2f8005e-cb19-4b4e-a501-0351fe1104dc",
+            "slug": "tous-les-memes",
+            "artist": "Stromae",
+            "name": "Tous Les MÃªmes",
+            "coverUrl": "https://npo-artistdb.b-cdn.net/images/550999d6-55f9-4d5e-8aff-9ce626bf961d__Tous-Les-M-mes.jpg?aspect_ratio=501%3A500&width=500&height=500",
+            "isAvailable": true
+          },
+          "cmsChartEditionPositions": null
+        },
+        {
+          "__typename": "radio_track_play",
+          "id": "9dcbc06c-8fb4-4578-97ff-cbb0a8ca89ce",
+          "artist": "Simple Minds",
+          "from": "2024-12-23 21:05:18",
+          "song": "Don't you (forget about me)",
+          "until": "2024-12-23 21:09:41",
+          "radioTracks": {
+            "__typename": "radio_tracks",
+            "id": "bd3dea2f-8613-4783-b308-e3397012d305",
+            "slug": "dont-you-forget-about-me",
+            "artist": "Simple Minds",
+            "name": "Don't You (Forget About Me)",
+            "coverUrl": "https://e-cdns-images.dzcdn.net/images/cover/9749a3298fa11b3b1215ac0073bcde48/1000x1000-000000-80-0-0.jpg",
+            "isAvailable": false
+          },
+          "cmsChartEditionPositions": null
+        },
+        {
+          "__typename": "radio_track_play",
+          "id": "9dcbbb64-e85c-403c-b080-f7639a5437c7",
+          "artist": "War On Drugs, The",
+          "from": "2024-12-23 20:51:12",
+          "song": "Pain",
+          "until": "2024-12-23 20:56:42",
+          "radioTracks": {
+            "__typename": "radio_tracks",
+            "id": "34caca4d-24d0-4e96-ab2b-456d22d28957",
+            "slug": "pain",
+            "artist": "The War on Drugs",
+            "name": "Pain",
+            "coverUrl": "https://npo-artistdb.b-cdn.net/images/adf67198-bd6d-43e3-84ac-d2de6174a6a5__Pain.jpg?aspect_ratio=501%3A500&width=500&height=500",
+            "isAvailable": true
+          },
+          "cmsChartEditionPositions": null
+        }
+      ]
+    }
+  },
+  "loading": false,
+  "networkStatus": 7
+}

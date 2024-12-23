@@ -9,21 +9,15 @@ $(function () {
     $("#top2000-id-square-shadow-1").addClass("hidden");
     $("#top2000-id-square-shadow-1").addClass("hidden");
   });
-
-  function playSound(url) {
-    const audio = new Audio(url);
-    audio.loop = false;
-    audio.play();
-  }
-  var currentId = -1;
+  var currentPosition = -1;
 
   socket.on("new song", function (msg) {
     console.log(msg);
     if (
-      msg.currentSong.hasOwnProperty("id") &&
-      msg.currentSong.id !== currentId
+      msg.currentSong.hasOwnProperty("position") &&
+      msg.currentSong.position.current !== currentPosition
     ) {
-      $("#huge-id").html(msg.currentSong.id);
+      $("#huge-id").html(msg.currentSong.position.current);
 
       $("#main-view").addClass("id-flash");
 
@@ -34,12 +28,13 @@ $(function () {
     $("#main-view").removeClass("notification-shown");
 
     setTimeout(function () {
-      $("#current-song-artist").html(msg.currentSong.artist);
-      $("#current-song-title").html(addNonBoldSpan(msg.currentSong.title));
-      //if (createVotesText(msg.currentSong) !== '') playSound("bell_2x.mp3");
+      $("#current-song-artist").html(msg.currentSong.track.artist);
+      $("#current-song-title").html(
+        addNonBoldSpan(msg.currentSong.track.title)
+      );
       $("#current-song-votes").html(createVotesText(msg.currentSong));
       if (msg.currentSong.id) {
-        $("#top2000-id").html(msg.currentSong.id);
+        $("#top2000-id").html(msg.currentSong.position.current);
       } else {
         $("#top2000-id").html("");
       }
@@ -50,10 +45,11 @@ $(function () {
         $("#current-song-year").html("");
       }
 
-      if (msg.currentSong.hasOwnProperty("previous")) {
-        var difference = msg.currentSong.previous - msg.currentSong.id;
-        if (msg.currentSong.previous === 0) {
-          //$('#current-song-difference').html('&#9644;');
+      if (msg.currentSong.hasOwnProperty("position")) {
+        var difference =
+          msg.currentSong.position.current - msg.currentSong.position.previous;
+        if (msg.currentSong.position.previous === 0) {
+          // $("#current-song-difference").html("&#9644;");
           $("#current-song-difference").html(
             '<img class="svg" src="ui-arrow-solid-new-blue.svg">'
           );
@@ -72,10 +68,12 @@ $(function () {
       stopTime = msg.currentSong.stopTime;
 
       if (msg.previousSong) {
-        $("#previous-song-artist").html(msg.previousSong.artist);
-        $("#previous-song-title").html(addNonBoldSpan(msg.previousSong.title));
+        $("#previous-song-artist").html(msg.previousSong.track.artist);
+        $("#previous-song-title").html(
+          addNonBoldSpan(msg.previousSong.track.title)
+        );
         $("#previous-song-votes").html(createVotesText(msg.previousSong));
-        $("#previous-id").html(msg.previousSong.id);
+        $("#previous-id").html(msg.previousSong.position.current);
       } else {
         $("#previous-song-artist").html("");
         $("#previous-song-title").html("");
@@ -84,10 +82,10 @@ $(function () {
       }
 
       if (msg.nextSong) {
-        $("#next-song-artist").html(msg.nextSong.artist);
-        $("#next-song-title").html(addNonBoldSpan(msg.nextSong.title));
+        $("#next-song-artist").html(msg.nextSong.track.artist);
+        $("#next-song-title").html(addNonBoldSpan(msg.nextSong.track.title));
         $("#next-song-votes").html(createVotesText(msg.nextSong));
-        $("#next-id").html(msg.nextSong.id);
+        $("#next-id").html(msg.nextSong.position.current);
       } else {
         $("#next-song-artist").html("");
         $("#next-song-title").html("");
@@ -95,10 +93,10 @@ $(function () {
         $("#next-id").html("");
       }
       if (
-        msg.currentSong.hasOwnProperty("id") &&
-        msg.currentSong.id !== currentId
+        msg.currentSong.hasOwnProperty("position") &&
+        msg.currentSong.position.current !== currentPosition
       ) {
-        currentId = msg.currentSong.id;
+        currentPosition = msg.currentSong.position.current;
         $("#main-view").addClass("song-detail");
       }
       if (msg.currentSong.startTime && msg.currentSong.stopTime) {
@@ -109,7 +107,7 @@ $(function () {
       }
     }, 1000);
 
-    if (msg.currentSong.id !== currentId) {
+    if (msg.currentSong.position.current !== currentPosition) {
       setTimeout(function () {
         $("#main-view").removeClass("song-detail");
       }, 10000);
@@ -176,10 +174,12 @@ $(function () {
         msg.presenter
     );
     $("#hour-overview-body").html("");
+    console.log(msg.songs);
     for (var i = 0; i < msg.songs.length; i++) {
       var s = msg.songs[i];
-      var difference = msg.songs[i].previous - msg.songs[i].id;
-      if (msg.songs[i].previous === 0) {
+      var difference =
+        msg.songs[i].position.previous - msg.songs[i].position.current;
+      if (msg.songs[i].position.previous === 0) {
         var diffString = '<div class="hour-overview-diff new">&#9644;</div>';
       } else if (difference > 0) {
         var diffString =
@@ -196,15 +196,15 @@ $(function () {
       }
       $("#hour-overview-body").append(
         '<div class="hour-overview-song"><div class="hour-overview-id">' +
-          s.id +
+          s.position.current +
           "</div>" +
           diffString +
           '<div class="hour-overview-title"><b>' +
-          addNonBoldSpan(s.title) +
+          addNonBoldSpan(s.track.title) +
           "</b>" +
           votesString +
           '<br><span class="non-bold">' +
-          s.artist +
+          s.track.artist +
           "</span></div></div>"
       );
     }

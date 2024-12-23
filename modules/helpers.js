@@ -1,7 +1,6 @@
-import fs from "fs";
 import { config, hours, io, presenters, songs } from "../index.js";
 function songAt(id) {
-  return songs[id - 1];
+  return songs.positions[id - 1];
 }
 function removeParentheses(text) {
   return text.replace(/\)[^)]*\)/, "");
@@ -29,7 +28,7 @@ function findHour(date, hour) {
       return i;
     }
   }
-  return -1;
+  return -2;
 }
 function isLive(month, date, hour) {
   return (
@@ -45,7 +44,6 @@ function isLive(month, date, hour) {
 }
 function showHourOverview() {
   console.log("showing hour overview");
-
   var d = new Date();
   d.setTime(d.getTime() - config.tz * 60 * 60 * 1000);
   var date = d.getDate();
@@ -64,15 +62,14 @@ function showHourOverview() {
     console.log("We are live!");
     var songsInHour = [];
     var topHour = findHour(date, hour);
-    var hourStart = hours[topHour].start_id - 1;
-    var hourEnd = hours[topHour + 1].start_id - 1;
-
+    var hourStart = hours.at(topHour).start_id - 1;
+    var hourEnd = hours.at(topHour + 1).start_id - 1;
+    console.log(hourStart, hourEnd);
     for (var i = hourStart; i > hourEnd; i--) {
-      var song = songs[i];
+      var song = songs.positions[i];
       song["id"] = i + 1;
       songsInHour.push(song);
     }
-
     var presenter = presenterInHour(hour);
     io.emit("hour overview", {
       date: date,
