@@ -14,7 +14,7 @@ $(function () {
   socket.on("new song", function (msg) {
     console.log(msg);
     if (
-      msg.currentSong.hasOwnProperty("position") &&
+      msg.currentSong.position &&
       msg.currentSong.position.current !== currentPosition
     ) {
       $("#huge-id").html(msg.currentSong.position.current);
@@ -28,10 +28,8 @@ $(function () {
     $("#main-view").removeClass("notification-shown");
 
     setTimeout(function () {
-      $("#current-song-artist").html(msg.currentSong.track.artist);
-      $("#current-song-title").html(
-        addNonBoldSpan(msg.currentSong.track.title)
-      );
+      $("#current-song-artist").html(msg.currentSong.artist);
+      $("#current-song-title").html(addNonBoldSpan(msg.currentSong.title));
       $("#current-song-votes").html(createVotesText(msg.currentSong));
       if (msg.currentSong.id) {
         $("#top2000-id").html(msg.currentSong.position.current);
@@ -45,7 +43,7 @@ $(function () {
         $("#current-song-year").html("");
       }
 
-      if (msg.currentSong.hasOwnProperty("position")) {
+      if (msg.currentSong.position) {
         var difference =
           msg.currentSong.position.current - msg.currentSong.position.previous;
         if (msg.currentSong.position.previous === 0) {
@@ -68,12 +66,12 @@ $(function () {
       stopTime = msg.currentSong.stopTime;
 
       if (msg.previousSong) {
-        $("#previous-song-artist").html(msg.previousSong.track.artist);
-        $("#previous-song-title").html(
-          addNonBoldSpan(msg.previousSong.track.title)
-        );
+        $("#previous-song-artist").html(msg.previousSong.artist);
+        $("#previous-song-title").html(addNonBoldSpan(msg.previousSong.title));
         $("#previous-song-votes").html(createVotesText(msg.previousSong));
-        $("#previous-id").html(msg.previousSong.position.current);
+        $("#previous-id").html(
+          msg.previousSong.position ? msg.previousSong.position.current : ""
+        );
       } else {
         $("#previous-song-artist").html("");
         $("#previous-song-title").html("");
@@ -82,8 +80,8 @@ $(function () {
       }
 
       if (msg.nextSong) {
-        $("#next-song-artist").html(msg.nextSong.track.artist);
-        $("#next-song-title").html(addNonBoldSpan(msg.nextSong.track.title));
+        $("#next-song-artist").html(msg.nextSong.artist);
+        $("#next-song-title").html(addNonBoldSpan(msg.nextSong.title));
         $("#next-song-votes").html(createVotesText(msg.nextSong));
         $("#next-id").html(msg.nextSong.position.current);
       } else {
@@ -93,7 +91,7 @@ $(function () {
         $("#next-id").html("");
       }
       if (
-        msg.currentSong.hasOwnProperty("position") &&
+        msg.currentSong.position &&
         msg.currentSong.position.current !== currentPosition
       ) {
         currentPosition = msg.currentSong.position.current;
@@ -107,7 +105,10 @@ $(function () {
       }
     }, 1000);
 
-    if (msg.currentSong.position.current !== currentPosition) {
+    if (
+      msg.currentSong.position &&
+      msg.currentSong.position.current !== currentPosition
+    ) {
       setTimeout(function () {
         $("#main-view").removeClass("song-detail");
       }, 10000);
@@ -200,11 +201,11 @@ $(function () {
           "</div>" +
           diffString +
           '<div class="hour-overview-title"><b>' +
-          addNonBoldSpan(s.track.title) +
+          addNonBoldSpan(s.title) +
           "</b>" +
           votesString +
           '<br><span class="non-bold">' +
-          s.track.artist +
+          s.artist +
           "</span></div></div>"
       );
     }
