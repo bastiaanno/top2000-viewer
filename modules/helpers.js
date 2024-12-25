@@ -6,14 +6,18 @@ function removeParentheses(text) {
   return text.replace(/\)[^)]*\)/, "");
 }
 function getHourCount(date, hour) {
-  return hours.findIndex((item) => item.day == date && item.hour == hour) + 1;
+  return hours.findIndex((item) => item.day == date && item.hour == hour);
 }
 // given an hour of the day (0-23), figures out which DJ is presenting then
 function presenterInHour(hour) {
+  console.log("Finding presenter for hour", hour);
   for (let i = presenters.length - 1; i >= 0; i--) {
     let presenter = presenters[i];
-    return hour >= presenter["hour"] ? presenter["name"] : "(DJ onbekend)";
+    if (hour >= presenter["hour"]) {
+      return presenter["name"];
+    }
   }
+  return "(DJ onbekend)";
 }
 
 // given an (1-based) song ID, check if this is the last song of an hour
