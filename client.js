@@ -28,10 +28,20 @@ $(function () {
     $("#main-view").removeClass("notification-shown");
 
     setTimeout(function () {
-      $("#current-song-artist").html(msg.currentSong.artist);
-      $("#current-song-title").html(addNonBoldSpan(msg.currentSong.title));
+      $("#current-song-artist").html(
+        msg.currentSong.track
+          ? msg.currentSong.track.artist
+          : msg.currentSong.artist
+      );
+      $("#current-song-title").html(
+        addNonBoldSpan(
+          msg.currentSong.track
+            ? msg.currentSong.track.title
+            : msg.currentSong.title
+        )
+      );
       $("#current-song-votes").html(createVotesText(msg.currentSong));
-      if (msg.currentSong.id) {
+      if (msg.currentSong.position) {
         $("#top2000-id").html(msg.currentSong.position.current);
       } else {
         $("#top2000-id").html("");
@@ -66,8 +76,18 @@ $(function () {
       stopTime = msg.currentSong.stopTime;
 
       if (msg.previousSong) {
-        $("#previous-song-artist").html(msg.previousSong.artist);
-        $("#previous-song-title").html(addNonBoldSpan(msg.previousSong.title));
+        $("#previous-song-artist").html(
+          msg.previousSong.track
+            ? msg.previousSong.track.artist
+            : msg.previousSong.artist
+        );
+        $("#previous-song-title").html(
+          addNonBoldSpan(
+            msg.previousSong.track
+              ? msg.previousSong.track.title
+              : msg.previousSong.title
+          )
+        );
         $("#previous-song-votes").html(createVotesText(msg.previousSong));
         $("#previous-id").html(
           msg.previousSong.position ? msg.previousSong.position.current : ""
@@ -80,10 +100,18 @@ $(function () {
       }
 
       if (msg.nextSong) {
-        $("#next-song-artist").html(msg.nextSong.artist);
-        $("#next-song-title").html(addNonBoldSpan(msg.nextSong.title));
+        $("#next-song-artist").html(
+          msg.nextSong.track ? msg.nextSong.track.artist : msg.nextSong.artist
+        );
+        $("#next-song-title").html(
+          addNonBoldSpan(
+            msg.nextSong.track ? msg.nextSong.track.title : msg.nextSong.title
+          )
+        );
         $("#next-song-votes").html(createVotesText(msg.nextSong));
-        $("#next-id").html(msg.nextSong.position.current);
+        $("#next-id").html(
+          msg.nextSong.position && msg.nextSong.position.current
+        );
       } else {
         $("#next-song-artist").html("");
         $("#next-song-title").html("");
@@ -175,7 +203,6 @@ $(function () {
         msg.presenter
     );
     $("#hour-overview-body").html("");
-    console.log(msg.songs);
     for (var i = 0; i < msg.songs.length; i++) {
       var s = msg.songs[i];
       var difference =
@@ -197,15 +224,15 @@ $(function () {
       }
       $("#hour-overview-body").append(
         '<div class="hour-overview-song"><div class="hour-overview-id">' +
-          s.position.current +
+          (s.position && s.position.current) +
           "</div>" +
           diffString +
           '<div class="hour-overview-title"><b>' +
-          addNonBoldSpan(s.title) +
+          addNonBoldSpan(s.track ? s.track.title : s.title) +
           "</b>" +
           votesString +
           '<br><span class="non-bold">' +
-          s.artist +
+          (s.track ? s.track.artist : s.artist) +
           "</span></div></div>"
       );
     }
