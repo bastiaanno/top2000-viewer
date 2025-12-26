@@ -223,9 +223,18 @@ function handleResponse(data) {
   }
   var newArtist = json["data"][0]["artist"];
   var originalNewTitle = json["data"][0]["title"];
-  var newTitle = isNaN(originalNewTitle.charAt(1))
-    ? originalNewTitle
-    : originalNewTitle.substring(originalNewTitle.indexOf(" ") + 1);
+  // Strip possible "#1558: Song Title" prefix coming from the API so we can both
+  // display the clean title and use the parsed rank for matching.
+  var parsedRank = null;
+  var rankedTitle = originalNewTitle.match(/^#?\s*(\d{1,4})[:\s-]+(.*)$/);
+  if (rankedTitle) {
+    parsedRank = parseInt(rankedTitle[1]);
+    var newTitle = rankedTitle[2].trim();
+  } else {
+    var newTitle = isNaN(originalNewTitle.charAt(1))
+      ? originalNewTitle
+      : originalNewTitle.substring(originalNewTitle.indexOf(" ") + 1);
+  }
   console.log("current song: " + newArtist + " - " + newTitle);
   if (previousArtist !== newArtist || previousTitle !== newTitle) {
     previousArtist = newArtist;
@@ -261,6 +270,17 @@ function handleResponse(data) {
 
       var closestMatch = -1;
       var closestLevenshtein = Infinity;
+
+      if (parsedRank && parsedRank >= 1 && parsedRank <= maxSongsNum) {
+        closestMatch = parsedRank;
+        closestLevenshtein =
+          levenshtein(newArtist, songs.positions[parsedRank - 1].track.artist) +
+          levenshtein(
+            removeParentheses(newTitle),
+            removeParentheses(songs.positions[parsedRank - 1].track.title)
+          );
+        console.log("Parsed rank from API title, using #" + parsedRank);
+      }
 
       for (var i = searchFrom; i >= searchTo; i--) {
         var l =

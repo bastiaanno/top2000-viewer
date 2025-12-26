@@ -12,16 +12,16 @@
     "top2000": 168
   },
   "hideShadow": false,
-  "editionYear": 2024,
+  "editionYear": 2025,
   "api": {
     "radio2": "nporadio2.nl",
     "radio5": "nporadio5.nl"
   },
   "slogans": {
-    "radio2": "Top2000 mooiste nummers ooit gemaakt",
+    "radio2": "2000 mooiste nummers ooit gemaakt",
     "radio5": "Evergreen top 1000"
   },
-  "polling" : {
+  "polling": {
     "interval": 2500
   }
 }
