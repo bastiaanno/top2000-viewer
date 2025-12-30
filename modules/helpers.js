@@ -93,7 +93,8 @@ function showHourOverview() {
   }
 }
 function getFilePath() {
-  if (!config.evergreen && !config.top2000) throw new Error("No edition type specified!");
+  if (!config.evergreen && !config.top2000)
+    throw new Error("No edition type specified!");
   if (!config.editionYear) throw new Error("No editionYear specified!");
 
   const prefix = config.evergreen ? "evergreen" : "top";
