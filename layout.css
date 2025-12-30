@@ -240,6 +240,7 @@ body {
     width: 0%;
     height: 100%;
     background-color: #ef5d61;
+    transition: width 0.25s linear;
 }
 
 #progress-bar-knob {
@@ -252,6 +253,7 @@ body {
     border: 4px solid #ef5d61;
     border-radius: 15px;
     background-color: #23292F;
+    transition: left 0.25s linear;
 }
 
 
