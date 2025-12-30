@@ -35,6 +35,7 @@ import { dirname } from "path";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 var config = JSON.parse(fs.readFileSync("config.json"));
+validateConfig(config);
 var filePath = getFilePath();
 var songs = JSON.parse(fs.readFileSync(filePath + "songs-unpruned.json"));
 var hours = JSON.parse(fs.readFileSync(filePath + "hours.json"));
@@ -75,6 +76,54 @@ var nextSong = {
 
 var previousTitle = "";
 var previousArtist = "";
+
+function validateConfig(cfg) {
+  const errors = [];
+  if (!cfg || typeof cfg !== "object")
+    errors.push("config is missing or invalid JSON");
+
+  if (cfg && cfg.evergreen && cfg.top2000)
+    errors.push("both evergreen and top2000 are enabled; choose one");
+  if (cfg && !cfg.evergreen && !cfg.top2000)
+    errors.push("neither evergreen nor top2000 is enabled; choose one");
+
+  if (!cfg || !Number.isInteger(cfg.editionYear))
+    errors.push("editionYear must be an integer");
+
+  if (!cfg || !Number.isFinite(cfg.tz)) errors.push("tz must be a number");
+
+  if (!cfg || !cfg.ports || !Number.isInteger(cfg.ports.https))
+    errors.push("ports.https must be set to a number");
+  if (
+    cfg &&
+    cfg.ports &&
+    cfg.ports.http !== undefined &&
+    !Number.isInteger(cfg.ports.http)
+  )
+    errors.push("ports.http must be a number when provided");
+
+  if (
+    !cfg ||
+    !cfg.polling ||
+    !Number.isInteger(cfg.polling.interval) ||
+    cfg.polling.interval <= 0
+  )
+    errors.push("polling.interval must be a positive integer (ms)");
+
+  if (!cfg || !cfg.api) errors.push("api settings missing");
+  const expectedApiKey = cfg && cfg.evergreen ? "radio5" : "radio2";
+  if (cfg && cfg.api && !cfg.api[expectedApiKey])
+    errors.push(`api.${expectedApiKey} must be configured`);
+
+  if (!cfg || !cfg.hours) errors.push("hours settings missing");
+  const expectedHoursKey = cfg && cfg.evergreen ? "evergreen" : "top2000";
+  if (cfg && cfg.hours && !Number.isInteger(cfg.hours[expectedHoursKey]))
+    errors.push(`hours.${expectedHoursKey} must be an integer`);
+
+  if (errors.length) {
+    throw new Error("Invalid config: " + errors.join("; "));
+  }
+}
 
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
