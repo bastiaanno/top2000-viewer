@@ -3,6 +3,7 @@ $(function () {
   const month1 = formatter.format(new Date());
   var startTime = 0;
   var stopTime = 0;
+  let progressAnimationId = null;
 
   var socket = io();
   socket.on("hideShadow", function (message) {
@@ -126,9 +127,10 @@ $(function () {
         $("#main-view").addClass("song-detail");
       }
       if (msg.currentSong.startTime && msg.currentSong.stopTime) {
-        updateProgressBar();
+        startProgressLoop();
         $("#progress-bar").css("opacity", 1);
       } else {
+        stopProgressLoop();
         $("#progress-bar").css("opacity", 0);
       }
     }, 1000);
@@ -142,7 +144,6 @@ $(function () {
       }, 10000);
     }
   });
-  setInterval(updateProgressBar, 0.5);
 
   socket.on("error", function (message) {
     $("#main-view").addClass("notification-shown");
@@ -164,7 +165,7 @@ $(function () {
     if (!song.voters) {
       return "";
     }
-    votesHtml = "";
+    let votesHtml = "";
     for (var i = 0; i < song.voters.length; i++) {
       votesHtml += '<div class="vote-badge">' + song.voters[i] + "</div>";
     }
@@ -172,6 +173,17 @@ $(function () {
   }
 
   function updateProgressBar() {
+    // If we have no timing info, hide the bar and stop animations
+    if (!startTime || !stopTime || stopTime <= startTime) {
+      stopProgressLoop();
+      $("#progress-bar").css("opacity", 0);
+      return;
+    }
+
+    if (!startTime || !stopTime || stopTime <= startTime) {
+      $("#progress-bar").css("opacity", 0);
+      return;
+    }
     var fraction =
       (100 * (new Date().getTime() - startTime)) / (stopTime - startTime);
     if (fraction > 100) {
@@ -184,6 +196,22 @@ $(function () {
     }
     $("#progress-bar-fill").css("width", fraction + "%");
     $("#progress-bar-knob").css("left", fraction + "%");
+  }
+
+  function startProgressLoop() {
+    if (progressAnimationId) return;
+    const step = function () {
+      updateProgressBar();
+      progressAnimationId = requestAnimationFrame(step);
+    };
+    progressAnimationId = requestAnimationFrame(step);
+  }
+
+  function stopProgressLoop() {
+    if (progressAnimationId) {
+      cancelAnimationFrame(progressAnimationId);
+      progressAnimationId = null;
+    }
   }
 
   socket.on("hour overview", function (msg) {
