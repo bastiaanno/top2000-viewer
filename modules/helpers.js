@@ -3,7 +3,8 @@ function songAt(id) {
   return songs.positions[id - 1];
 }
 function removeParentheses(text) {
-  return text.replace(/\)[^)]*\)/, "");
+  // Strip the first parenthesized fragment (e.g. remix/version notes) from titles
+  return text.replace(/\([^)]*\)/, "");
 }
 function getHourCount(date, hour) {
   return hours.findIndex((item) => item.day == date && item.hour == hour);
@@ -23,8 +24,11 @@ function presenterInHour(hour) {
 // given an (1-based) song ID, check if this is the last song of an hour
 function isLastSongInHour(id) {
   for (let i = 0; i < hours.length; i++) {
-    return id === hours[i]["start_id"] + 1 ? true : false;
+    if (id === hours[i]["start_id"] + 1) {
+      return true;
+    }
   }
+  return false;
 }
 function findHour(date, hour) {
   for (var i = 0; i < hours.length; i++) {
@@ -89,12 +93,11 @@ function showHourOverview() {
   }
 }
 function getFilePath() {
-  if (!config.evergreen && !config.top2000) throw "No edition type specified!";
-  return (
-    (config.evergreen ? "evergreen" : "" + config.top2000 ? "top" : "") +
-    +config.editionYear +
-    "/"
-  );
+  if (!config.evergreen && !config.top2000) throw new Error("No edition type specified!");
+  if (!config.editionYear) throw new Error("No editionYear specified!");
+
+  const prefix = config.evergreen ? "evergreen" : "top";
+  return `${prefix}${config.editionYear}/`;
 }
 export {
   songAt,
