@@ -270,8 +270,14 @@ function handleResponse(data) {
     io.emit("error", "Returned JSON was invalid: " + e.message);
     return;
   }
-  var newArtist = json["data"][0]["artist"];
-  var originalNewTitle = json["data"][0]["title"];
+  const track = json?.data?.[0];
+  if (!track) {
+    console.log("No track data in API response");
+    io.emit("error", "No track data in API response");
+    return;
+  }
+  var newArtist = track["artist"];
+  var originalNewTitle = track["title"];
   // Strip possible "#1558: Song Title" prefix coming from the API so we can both
   // display the clean title and use the parsed rank for matching.
   var parsedRank = null;
@@ -349,8 +355,8 @@ function handleResponse(data) {
           title: newTitle,
           artist: newArtist,
           id: "...",
-          startTime: Date.parse(json["data"][0]["startdatetime"]),
-          stopTime: Date.parse(json["data"][0]["enddatetime"]),
+          startTime: Date.parse(track["startdatetime"]),
+          stopTime: Date.parse(track["enddatetime"]),
         };
         nextSong = null;
       } else {
@@ -372,8 +378,8 @@ function handleResponse(data) {
       };
       nextSong = null;
     }
-    currentSong.startTime = Date.parse(json["data"][0]["startdatetime"]);
-    currentSong.stopTime = Date.parse(json["data"][0]["enddatetime"]);
+    currentSong.startTime = Date.parse(track["startdatetime"]);
+    currentSong.stopTime = Date.parse(track["enddatetime"]);
     console.log("Informing websocket subscribers");
     io.emit("new song", {
       currentSong: currentSong,
@@ -382,10 +388,8 @@ function handleResponse(data) {
     });
     if (nextSong && nextSong.voters && nextSong.voters.length > 0) {
       nextSong.voters.forEach((voter) => {
-        var voterInfo = votes.find((x) => x.abbreviation == voter);
-        if (voterInfo) {
-          voterName = voterInfo.name;
-        } else {
+        const voterInfo = votes.find((x) => x.abbreviation == voter);
+        if (!voterInfo) {
           console.log("voter '" + voter + "' not found");
         }
       });
